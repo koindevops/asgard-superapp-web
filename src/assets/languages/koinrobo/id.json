@@ -1,5 +1,6 @@
 {
   "koinrobo": {
+    "koinrobo-howToUse": "Cara Menggunakan KoinRobo",
     "koinrobo-keyVisual-headingText": "Hasil Terprediksi Serba Otomatis",
     "koinrobo-keyVisual-paragraphOne": "Bangun portofolio yang cerdas dan terdiversifikasi secara otomatis dengan teknologi 'machine learning' . Dapatkan bunga terprediksi sesuai tenor pilihanmu sembari memberikan dampak sosial.",
     "koinrobo-statistic-headingOne": "Kredibel & Transparan",
@@ -30,6 +31,12 @@
     "koinrobo-invest-cardParagraphFour": "Cara termudah bagimu untuk terus mendukung pertumbuhan bisnis yang sudah memaksimalkan setiap pendanaanmu.",
     "koinrobo-financialHero-heading" : "Terlibatlah Dengan Apa yang Kamu Yakini",
     "koinrobo-financialHero-paragraph": "Gabung dengan komunitas Pendana yang peduli dan memutuskan untuk menyalurkan pendanaan mereka demi Indonesia yang lebih baik. Simak kisah inspiratif mereka yang sudah kamu bantu dan terinspirasilah untuk terus membantu mereka sembari meraih impian finansialmu.",
-    "koinrobo-financialHero-link": "TURUT CIPTAKAN PERUBAHAN >"
+    "koinrobo-financialHero-link": "TURUT CIPTAKAN PERUBAHAN >",
+    "koinrobo-howToUseLabelFour": "Mulai Pendanaan Berdampak Sosial Secara Otomatis",
+    "koinrobo-descriptionFour": "Pilih tipe pendanaan berdampak sosial yang sesuai dengan keinginan kamu dan tentukan jangka waktu pendanaan (3, 6, hingga 12 bulan).",
+    "koinrobo-howToUseLabelFive":"Finalisasi Pendanaan",
+    "koinrobo-descriptionFive": "Sudah siap untuk memulai pendanaan pertamamu melalui KoinRobo? Jangan lupa finalisasi pendanaanmu melalui menu ",
+    "koinrobo-howToUseLabelSix": "Saatnya Pantau Portofoliomu",
+    "koinrobo-descriptionSix": "Jelajahi dasbor pendanaan dan portofolio digitalmu dan ketahui lebih lengkap tentan gdetail pinjaman, status, dan jadwal pengembalian melalui ujung jarimu."
   }
 }
