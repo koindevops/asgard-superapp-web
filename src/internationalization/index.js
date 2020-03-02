@@ -12,6 +12,8 @@ import koinp2p_id from "../assets/languages/koinp2p/id.json";
 import koinp2p_en from "../assets/languages/koinp2p/en.json";
 import koinrobo_id from "../assets/languages/koinrobo/id.json";
 import koinrobo_en from "../assets/languages/koinrobo/en.json";
+import koinbisnis_id from "../assets/languages/koinbisnis/id.json";
+import koinbisnis_en from "../assets/languages/koinbisnis/en.json";
 
 i18n.use(initReactI18next).init({
   lng: "id",
@@ -27,7 +29,8 @@ i18n.use(initReactI18next).init({
       common: common_id,
       footer: footer_id,
       koinp2p: koinp2p_id,
-      koinrobo: koinrobo_id
+      koinrobo: koinrobo_id,
+      koinbisnis: koinbisnis_id
     },
     en: {
       menuHeaders: menuHeaders_en,
@@ -35,7 +38,8 @@ i18n.use(initReactI18next).init({
       common: common_en,
       footer: footer_en,
       koinp2p: koinp2p_en,
-      koinrobo: koinrobo_en
+      koinrobo: koinrobo_en,
+      koinbisnis : koinrobo_en
     }
   }
 });

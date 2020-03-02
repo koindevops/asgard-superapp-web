@@ -1,5 +1,6 @@
 {
   "koinrobo": {
+    "koinrobo-howToUse": "How to Use KoinRobo",
     "koinrobo-keyVisual-headingText": "Predicted Return in Autopilot",
     "koinrobo-keyVisual-paragraphOne": "Build smarter and diversified portfolio automagically with our innovative machine learning and earn predicted returns within the tenor of your choice while helping social commerce to grow at once.",
     "koinrobo-statistic-headingOne": "Credible & Transparent",
@@ -30,6 +31,12 @@
     "koinrobo-invest-cardParagraphFour": "Your easiest way to keep supporting businesses who have made use of your funding perfectly to grow even more.",
     "koinrobo-financialHero-heading": "Be Engaged in What You Believe in",
     "koinrobo-financialHero-paragraph": "Join a community of Lenders who care and vote their fund to shape a better Indonesia. Listen to the inspiring stories of those who you have helped and get inspired to help them more. Achieve your financial dreams at once.",
-    "koinrobo-financialHero-link":"START MAKING IMPACT >"
+    "koinrobo-financialHero-link":"START MAKING IMPACT >",
+    "koinrobo-howToUseLabelFour": "Start Automating Your Social Lending",
+    "koinrobo-descriptionFour": "Pick a social cause where your heart is and determine the loan duration (3, 6 or 12 months). The longer your choice, the higher the predicted and fixed rate you'll get. ",
+    "koinrobo-howToUseLabelFive":"Checkout",
+    "koinrobo-descriptionSix":"Explore your dashboard to know more about loan details, status, and repayment schedule at your fingertips via your own digital portfolio.",
+    "koinrobo-howToUseLabelSix": "Monitor Your Portfolio",
+    "koinrobo-descriptionFive": "All is good to go? Don’t forget to complete your order by clicking the Cart  button, and we will take care the rest by automatically diversifying your portfolio. "
   }
 }

@@ -30,43 +30,28 @@ function KoinRobo() {
     },
     {
       image: require("../../assets/image/koinp2p-image/How to Use P2P - 2.png"),
-      label:
-        "koinp2p:koinp2p.koinp2p-content-howToUse-sliderThreeHeading",
+      label: "koinp2p:koinp2p.koinp2p-content-howToUse-sliderThreeHeading",
       description:
         "koinp2p:koinp2p.koinp2p-content-howToUse-sliderThreeDescription"
     },
     {
-      image: require("../../assets/image/koinp2p-image/How to Use P2P - 3.png"),
-      label:
-        "koinp2p:koinp2p.koinp2p-content-howToUse-sliderFourHeading",
-      description:
-        "koinp2p:koinp2p.koinp2p-content-howToUse-sliderFourDescription"
+      image: require("../../assets/image/koinrobo-image/How-to-Use-Robo-3.png"),
+      label: "koinrobo:koinrobo.koinrobo-howToUseLabelFour",
+      description: "koinrobo:koinrobo.koinrobo-descriptionFour"
     },
     {
-      image: require("../../assets/image/koinp2p-image/How to Use P2P - 4.png"),
-      label:
-        "koinp2p:koinp2p.koinp2p-content-howToUse-sliderFiveHeading",
-      description:
-        "koinp2p:koinp2p.koinp2p-content-howToUse-sliderFiveDescription"
+      image: require("../../assets/image/koinrobo-image/How-to-Use-Robo-4.png"),
+      label: "koinrobo:koinrobo.koinrobo-howToUseLabelFive",
+      description: "koinrobo:koinrobo.koinrobo-descriptionFive"
     },
     {
-      image: require("../../assets/image/koinp2p-image/How to Use P2P - 5.png"),
-      label:
-        "koinp2p:koinp2p.koinp2p-content-howToUse-sliderSixHeading",
-      description:
-        "koinp2p:koinp2p.koinp2p-content-howToUse-sliderSixDescription"
-    },
-    {
-      image: require("../../assets/image/koinp2p-image/How to Use P2P - 6.png"),
-      label:
-        "koinp2p:koinp2p.koinp2p-content-howToUse-sliderSevenHeading",
-      description:
-        "koinp2p:koinp2p.koinp2p-content-howToUse-sliderSevenDescription"
+      image: require("../../assets/image/koinrobo-image/How-to-Use-Robo-5.png"),
+      label: "koinrobo:koinrobo.koinrobo-howToUseLabelSix",
+      description: "koinrobo:koinrobo.koinrobo-descriptionSix"
     },
     {
       image: require("../../assets/image/koinp2p-image/How to Use P2P - 7.png"),
-      label:
-        "koinp2p:koinp2p.koinp2p-content-howToUse-sliderEightHeading"
+      label: "koinp2p:koinp2p.koinp2p-content-howToUse-sliderEightHeading"
     }
   ];
   return (
@@ -77,15 +62,15 @@ function KoinRobo() {
         <KoinRoboFeatures />
         <KoinRoboMakingSocial />
         <KoinRoboInvest />
-        <KoinRoboFinancialApp/>
+        <KoinRoboFinancialApp />
         <HomeSliderMedia />
         <div style={{ marginTop: 130 }}>
           <KoinP2pTrusted />
         </div>
         <HomeHowToUseKoinworks
-        imageSlider={imageSlider}
-        headingTitle="koinp2p:koinp2p.koinp2p-content-howToUse-p2p"
-      />
+          imageSlider={imageSlider}
+          headingTitle="koinrobo:koinrobo.koinrobo-howToUse"
+        />
       </div>
     </Section>
   );
