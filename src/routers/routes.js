@@ -1,5 +1,5 @@
 import PATH_URL from "./path";
-import Home from "../page/home";
+import Home from "../page/Home";
 import MainLayout from "../layouts/MainLayout";
 import KoinP2p from "../page/Koinp2p";
 import KoinRobo from "../page/KoinRobo";
