@@ -1,6 +1,44 @@
 {
-    "koinbisnisTop": {
-        "heading-label" : "Tingkatkan Pertumbuhan Bisnis",
-        "description": "Bisnis apapun yang kamu jalankan pasti punya potensi untuk lebih maju. Dapatkan tambahan modal bisnis tanpa agunan hingga Rp2 Miliar dengan mudah dan cepat untuk pengembangan bisnismu dari KoinBisnis."
-    } 
+  "koinbisnisTop": {
+    "heading-label": "Tingkatkan Pertumbuhan Bisnis",
+    "description": "Bisnis apapun yang kamu jalankan pasti punya potensi untuk lebih maju. Dapatkan tambahan modal bisnis tanpa agunan hingga Rp2 Miliar dengan mudah dan cepat untuk pengembangan bisnismu dari KoinBisnis.",
+    "arready-account": "Sudah punya akun?",
+    "arready-accountLink": "(Khusus Peminjam yang telah mendaftar sebelum 10 Desember 2019)",
+    "arready-link": "Masuk ke KoinBisnis"
+  },
+  "koinbisnisPoint": {
+    "labelOne": "Bunga & Biaya Terjangkau",
+    "descriptionOne": "Dengan bunga cicilan rendah antara 0,75% – 1,67% per bulan, kamu bisa mendapatkan pembiayaan bisnis hingga Rp 2 miliar untuk meningkatkan penjualanmu. Tenang, tak ada biaya tersembunyi.",
+    "labelTwo": "Integrasi Otomatis",
+    "descriptionTwo": "Tak perlu lagi memasukkan data secara manual. Cukup hubungkan bank dan toko online kamu, langsung nikmati pengalaman pengajuan pinjaman yang cepat dan mudah dengan KoinBisnis.",
+    "labelThree": "Persetujuan Instan",
+    "descriptionThree": "Tidak perlu menunggu lama. Dengan teknologi kecerdasan buatan dan machine learning  kami, kamu pun bisa mendapatkan persetujuan kelayakan kredit lebih cepat dibandingkan yang lain.",
+    "labelFour": "Biaya Sesuai Skor Kredit",
+    "descriptionFour": "Tidak perlu khawatir apalagi takut dengan biaya pinjaman. Kami menjamin bahwa kamu hanya membayar bunga dan biaya berdasarkan analisa skor kredit dan tentunya atas persetujuanmu."
+  },
+  "koinbisnisWhy": {
+    "heading": "Pembiayaan Bisnis yang Terjangkau",
+    "labelOne": "Pencairan Cepat",
+    "descriptionOne": "Dengan teknologi terkini,proses persetujuan dan pencairan hanya dalam waktu 1-3 hari, langsung ke rekening bank kamu.",
+    "labelTwo": "Tanpa Agunan",
+    "descriptionTwo": "Tak perlu kartu kredit, properti, dan aset fisik lain untuk dijadikan agunan. Cukup ajukan dengan dokumen yang dibutuhkan.",
+    "labelThree": "Tenor Fleksibel",
+    "descriptionThree": "Sesuaikan jangka waktu dengan kebutuhanmu. Tersedia tenor 6 – 24 bulan, silakan pilih sesuai kebutuhan.",
+    "labelFour": "Lunas Lebih Awal Tanpa Biaya",
+    "descriptionFour": "Lunasi pinjamanmu tanpa perlu khawatir biaya penalti. Kamu bisa melunasi pinjaman lebih awal dari tenor tanpa biaya.",
+    "labelFive": "Mudahnya Pembayaran",
+    "descriptionFive": "Bayar cicilan hanya dengan satu langkah! Cukup transfer melalui rekening virtual dan pantau pembayaranmu.",
+    "labelSix": "Penagihan yang Ramah",
+    "descriptionSix": "Jangan khawatir, sistem penagihankami sesuai prosedur. Saat ini, kami telah terdaftar dan diawasi oleh OJK."
+  },
+  "koinbisnisHowWorks": {
+    "heading": "Cara Kerja KoinBisnis",
+    "description-One": "Peminjam mengajukan pinjaman secara online via aplikasi.",
+    "description-Two": "KoinWorks menganalisa seluruh data dan memberikan skor kredit A – E.",
+    "description-Three": "Pinjaman diterbitkan ke dalam marketplace.",
+    "description-Four": "Ratusan ribu Pendana menganalisa pinjaman dan mendanainya.",
+    "description-Five": "Pinjaman terdanai minimal 80% dan dicairkan ke rekening Peminjam.",
+    "description-Six": "Peminjam memanfaatkannya dan membayar cicilan sesuai tenor.",
+    "description-Seven": "Sistem KoinWorks secara otomatis menyalurkan pengembalian ke Pendana berdasarkan porsi pendanaan masing-masing Pendana (Pokok+Bunga)."
+  }
 }

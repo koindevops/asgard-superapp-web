@@ -1,6 +1,44 @@
 {
-    "koinbisnisTop": {
-        "heading-label" : "Boost Your Business Growth to the Next Level",
-        "description" : "Whatever type of business you are running, we believe that it has every potential needed to grow. Get up to IDR2 billion non-collateral business loans with instant approval from KoinBisnis and grow even further."
-    } 
+  "koinbisnisTop": {
+    "heading-label": "Boost Your Business Growth to the Next Level",
+    "description": "Whatever type of business you are running, we believe that it has every potential needed to grow. Get up to IDR2 billion non-collateral business loans with instant approval from KoinBisnis and grow even further.",
+    "arready-account": "Already have an account?",
+    "arready-accountLink": "(Only for Borrowers who have registered before December 10, 2019)",
+    "arready-link": "Login to KoinBisnis"
+  },
+  "koinbisnisPoint": {
+    "labelOne": "Affordable Interest & Fees",
+    "descriptionOne": "With monthly interest rate ranged from 0.75% – 1.67%, you can get business financing to grow your sales up to Rp 2 billion. No hidden fee.",
+    "labelTwo": "Automatic Integration",
+    "descriptionTwo": "You don’t need to input your requirement document manually. We connect your bank statement and your online shop for quick loan approval.",
+    "labelThree": "Instant Approval",
+    "descriptionThree": "With our artificial intelligence and machine learning technology, we can give you approve your loan faster than conventional institutions.",
+    "labelFour": "Risk-Based Pricing",
+    "descriptionFour": "Don ‘t worry about the costs! We ensure that you only pay the interest rate and fees based on the credit scoring and of course with your approval."
+  },
+  "koinbisnisWhy": {
+    "heading": "Accessible & Affordable Business Financing",
+    "labelOne": "Fast Disbursement",
+    "descriptionOne": "With our artificial intelligent technology we can approve your loan from one day to three days, right into your account.",
+    "labelTwo": "No Collateral Required",
+    "descriptionTwo":"You don’t need credit cards, property, or any other physical things to be collateral. We just need legal documentation and financial report.",
+    "labelThree":"Flexible Terms",
+    "descriptionThree":"We provide a loan repayment period of 6 – 24 months that you can adjust to your business performance or needs",
+    "labelFour":"No Early Repayment Fee",
+    "descriptionFour":"You can pay of your installment earlier than the tenor with no penalty fee. And, you can always reapply for another loan afterwards.",
+    "labelFive":"Easy Repayment",
+    "descriptionFive":"You can transfer the repayment right into your bank virtual account on KoinWorks and monitor if we have received your payment via app.",
+    "labelSix":"Responsible Collection",
+    "descriptionSix":"We are monitored and registered on OJK, so we will obey the OJK rules about credit collection procedure."
+  },
+  "koinbisnisHowWorks": {
+      "heading" : "How KoinBisnis Works",
+      "description-One": "Borrower applies for a loan online via the app.",
+      "description-Two": "KoinWorks assesses the data and classifies the credit scores into five main tiers, from A – E.",
+      "description-Three": "The loan will then be issued into the marketplace.",
+      "description-Four": "Lenders assess the detailed information about the loan, decide and start funding it.",
+      "description-Five": "Loan is fully funded and disbursed into the Borrower’s assigned bank account.",
+      "description-Six": "The Borrower starts using it and pay monthly installments.",
+      "description-Seven": "KoinWorks system automatically distributes returns to Lenders based on the portion of their funding (Principal + Interest)."
+  }
 }

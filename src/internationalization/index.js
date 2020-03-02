@@ -39,7 +39,7 @@ i18n.use(initReactI18next).init({
       footer: footer_en,
       koinp2p: koinp2p_en,
       koinrobo: koinrobo_en,
-      koinbisnis : koinrobo_en
+      koinbisnis : koinbisnis_en
     }
   }
 });
