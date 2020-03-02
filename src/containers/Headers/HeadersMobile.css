@@ -1,0 +1,50 @@
+.kw-headers-wrapper__main-menu__button-language {
+  width: 40px;
+  min-height: 27px !important;
+  padding: 10px !important;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #ffffff;
+  background: #2b486d;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  line-height: 0 !important;
+}
+
+.kw-headers-drawer-mobile
+  .ant-menu-submenu-inline
+  > .ant-menu-submenu-title
+  .ant-menu-submenu-arrow {
+  right: 50px;
+}
+
+.kw-headers-drawer-mobile .ant-menu-submenu-selected {
+  font-weight: 400;
+  color: black;
+}
+
+.kw-headers-drawer-mobile .ant-menu-submenu-title:hover {
+  color: unset;
+}
+
+.kw-headers-drawer-mobile .ant-menu-item:active,
+.ant-menu-submenu-title:active {
+  background: unset;
+}
+
+.ant-menu-submenu-active, .ant-menu-submenu-title:hover {
+    color: #000000 !important;
+}
+
+.kw-headers-drawer-mobile .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: unset;
+    color: #000000;
+}
+
+.active {
+  color: red;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  cursor: pointer;
+}

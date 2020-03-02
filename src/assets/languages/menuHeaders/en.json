@@ -1,0 +1,9 @@
+{
+    "nameHeaders": {
+        "nameWealth" : "Wealth",
+        "nameLoans" : "Loans",
+        "nameFeatures" : "Features",
+        "nameCompany" : "Company",
+        "nameLogin" : "Login"
+    }
+}

@@ -1,0 +1,62 @@
+{
+  "homeLanguage": {
+    "homeSolutionText": "Solusi Segala Kebutuhan Finansial Pribadi & Bisnis",
+    "homeSolutionTextParagraph": "Wujudkan segala impian finansialmu di masa depan, hanya melalui satu dasbor dan ujung jarimu.",
+    "homeSolutionMobile": "Mulai Sekarang, Gratis"
+  },
+  "homeSliderMedia": {
+    "homeSliderMediaSAW": " “KoinWorks memanfaatkan model bisnis sosial yang diyakini merupakan solusi ampuh untuk menjalankan misi menolong sesama secara berkelanjutan.” - SWA",
+    "homeSliderMediaKontan": " “Yang terpenting bagi KoinWorks ialah memberikan nilai tambah bagi stakeholder dan membangun bisnis secara berkelanjutan tanpa mengambil risiko berlebihan.” - Kontan",
+    "homeSliderMediaKompas": "“Pendanaan yang bergerak di bidang produktif seperti KoinWorks lebih aman karena meminimalisir risiko gagal bayar yang kerap terjadi di pendanaan konsumtif.” - Kompas",
+    "homeSliderMediaInvestor": "“KoinWorks selalu memegang teguh prinsip responsible lending dimana keamanan data dan kepercayaan para pengguna menjadi hal yang paling utama bagi KoinWorks.” - Investor Daily"
+  },
+  "homeTrustedSuperApp": {
+    "homeTrustedHeading": "Super App Finansial Pertama dan Terpercaya di Indonesia",
+    "homeTrustedParagraph": "Dipercaya lebih dari 300.000 pengguna yang ingin mewujudkan tujuan finansial mereka. Sekarang giliranmu! Unduh Sekarang."
+  },
+  "homeStatistikKoinworks": {
+    "homeStatistikKoinworksLabel": "Statistik KoinWorks",
+    "homeStatistikTkb": "98,97%",
+    "homeStatistikTkbText": "TKB90",
+    "homeStatisLoanIndividual": "Total Pinjaman Sejak Berdiri",
+    "homeStatisTotalLoanThisYear": "Total Pinjaman Tahun Ini",
+    "homeStatisTotalOutsandingLoan": "Total Pinjaman yang Belum Lunas",
+    "homeStatisUser": "3281 Pengguna",
+    "homeStatisUserInstitutional": "292 Pengguna",
+    "homeStatisUserActiveIndividual": "1776 Pengguna",
+    "homeStatisUserUsed": "43 Pengguna",
+    "homeStatisInvidiual": "Peminjam Individu",
+    "homeStatisInstitusional": "Peminjam Institusional",
+    "homeStatisActiveIndividual": "Peminjam Individual Aktif",
+    "homeStatisInstitutionalActive": "Peminjam Institusional Aktif"
+  },
+  "homeFinancialChoices": {
+    "homeFinancialChoicesHeading": "Membantumu Menentukan Pilihan Finansial yang Cerdas",
+    "homeFinancialDescriptionOne": "Akses yang nyaman dan mudah untuk memenuhi kebutuhan finansial pribadi dan bisnismu.",
+    "homeFinancialLabel": "Kapan pun, Di Mana pun",
+    "homeFinancialDescriptionTwo": "Tetap terhubung kapan pun dan di mana pun kamu berada tanpa kendala apapun.",
+    "homeFinancialLabelTwo": "Akses yang Mudah ",
+    "homeFinancialDescriptionThree": "Mulai mendanai hanya dari Rp100.000 dan dapatkan pinjaman sesuai dengan kebutuhan finansial kamu. ",
+    "homeFinancialLabelThree": "Hemat Waktu & Tenaga",
+    "homeFinancialDescriptionFour": "Cukup duduk sambil bersantai, biar kami yang mengurus segala kebutuhan keuanganmu"
+  },
+  "homeProductKoinworks": {
+    "homeProductKoinworksHeading": "Produk Kami",
+    "homeProductKoinworksDescription":"Kami menyatukan kamu dan kebutuhan finansialmu dalam satu aplikasi.",
+    "homeProductKoinworksWealth" : "Pendanaan",
+    "homeProductKoinworksLoan" : "Pinjaman",
+    "homeProductKoinworksDescKoinRobo": "Diversifikasikan portofoliomu secara otomatis dan dapatkan bunga terprediksi sembari membuat dampak sosial bagi masyarakat.",
+    "homeProductKoinworksP2p": "Mulailah mendanai dan lakukan hal yang bermakna hanya dengan Rp100.000, dapatkan bunga efektif per tahun mulai dari 18%, p.a.",
+    "homeProductKoinBisnis":"Tak perlu ribet, kini UKM bisa mendapatkan tambahan modal usaha hingga Rp2 miliar tanpa jaminan hanya dalam 1 hari!"
+  },
+  "homeHowToUseKoinworks": {
+    "homeHowToUseKoinworksHeading":"Cara Menggunakan Koinworks",
+    "homeHowToUseKoinworksParagphSlideOne" : "Download Super App Finansial Koinworks",
+    "homeHowToUseKoinworksDescriptionSlideOne" : "Tersedia di Play Store dan App Store,Gratis.",
+    "homeHowToUseKoinworksHeadingTwo": "Daftar",
+    "homeHowToUseKoinworksDescriptionSlideTwo":"Tentukan kebutuhan, baik personal maupun bisnis, dan isi data singkat yang dibutuhkan..",
+    "homeHowToUseKoinworksHeadingThree" : "Pilih Produk Sesuai Kebutuhan Kamu ",
+    "homeHowToUseKoinworksDescriptionSlideThree": " untuk mengembangkan asetmu serta mendapat imbal hasil yang besar atau menjadi Peminjam  dan dapatkan pembiayaan untuk urusan pribadi & bisnis atau bahkan keduanya. Tentukan pilihanmu.",
+    "homeHowToUseKoinworksHeadingFour":"Saatnya merasakan pengalaman finansial baru!"
+  }
+}

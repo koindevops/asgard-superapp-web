@@ -1,0 +1,9 @@
+{
+    "nameHeaders": {
+        "nameWealth" : "Pendanaan",
+        "nameLoans" : "Pinjaman",
+        "nameFeatures": "Fitur",
+        "nameCompany": "Perusahaan",
+        "nameLogin" : "Masuk"
+    }
+}

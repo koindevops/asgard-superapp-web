@@ -1,0 +1,11 @@
+
+.kw-home-trustedSuperApp {
+  max-width: 555px;
+}
+
+@media screen and (max-width: 725px) {
+  .kw-home-trustedSuperApp {
+    max-width: unset;
+    width: 100%;
+  }
+}

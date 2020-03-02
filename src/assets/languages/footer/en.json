@@ -1,0 +1,38 @@
+{
+    "footer-top" : {
+        "footer-top-heading" : "Your Finances, All in One Place. Let’s Grow Big and Beyond.",
+        "footer-top-label" : "Start Now, For Free"
+    },
+    "footer-top-link":{
+        "footer-top-link-company": "Company",
+        "footer-top-link-aboutUs": "About Us",
+        "footer-top-link-call-us": "Contact Us",
+        "footer-top-link-career": "Career",
+        "footer-top-link-faq": "FAQ",
+        "footer-top-link-blog": "Blog",
+        "footer-top-link-products" : "Products",
+        "footer-top-link-koinp2p" : "KoinP2P",
+        "footer-top-link-koinrobo" : "KoinRobo",
+        "footer-top-link-koinBisnis" : "KoinBisnis",
+        "footer-top-link-koinPintar" : "KoinPintar",
+        "footer-top-link-privacyPolicy" : "Privasi Policy",
+        "footer-top-link-terms-of-use" : "Terms of Use",
+        "footer-top-link-terms-condition" : "Terms & Conditions"
+    },
+    "footer-bottom": {
+        "footer-bottom-paragraph-one": "Licensed & Supervised by",
+        "footer-bottom-memberOf": "A Member of",
+        "footer-bottom-attention": "Attention",
+        "footer-bottom-attention-one": "The Information Technology-based Peer to Peer Lending Service is a civil agreement between Lender and Borrower, so that all risks arising from the agreement are borne entirely by each party.",
+        "footer-bottom-attention-two":"Every Lender is fully responsible for all credit risks of late or default payments. No national entity or authority is responsible for any such risks.",
+        "footer-bottom-attention-three": "The Operator with the approval of the respective Users (Lenders and/or Borrowers) accesses, acquires, stores, administers and/or uses the Users’ personal data of Users (Data Utilization) on or inside objects, electronic devices (including smartphones or phones cellular), hardwares, softwares, electronic documents, applications or electronic systems belonging to Users or controlled by the Users, by notifying the purpose, limitations and mechanisms of the Data Utilization to the Users concerned before obtaining such consent.",
+        "footer-bottom-attention-four":"Lenders who do not have sufficient knowledge and experience on the lending business are advised not to use this service.",
+        "footer-bottom-attention-five":"Borrowers should carefully consider the loan interest rate along with other costs in accordance with the ability to pay off the loan.",
+        "footer-bottom-attention-six":"Every fraudulent activity is recorded digitally in cyberspace and may potentially be informed to the public through social media networks.",
+        "footer-bottom-attention-seven":"Every User should read and understand this information before making a decision to become a Lender or Borrower.",
+        "footer-bottom-attention-eight":"The Government, in this case the Financial Services Authority, shall not be liable for any breach or non-compliance by the User, either the Lender or the Borrower (either by User's intent or negligence) of the provisions of the laws and regulations or agreements or agreements between the Operator and the Lender and/or Borrower.",
+        "footer-bottom-attention-nine":"Every transaction and lending activity or the implementation of the agreements on lending activity between or involving the Operator, Lender and/or Borrower shall be made through escrow and virtual accounts as required under the Regulation of the Financial Services Authority Number 77 / POJK.01 / 2016 on The Information Technology-based Peer to Peer Lending Service and the violation or non-compliance towards those provisions constitute evidence of a violation of law by the Operator so that the Operator shall bear the indemnity suffered by each User as a direct result of the above breach of the law without prejudice to the right of the User suffering loss according to the Civil Law.",
+        "footer-bottom-paragraph-oneEnd":"PT Lunaria Annua Teknologi (Company) is a legal entity established under the Law of the Republic of Indonesia. Standing as a company that has been regulated by and under the supervision of the Financial Services Authority (OJK) in Indonesia, the Company provides interfacing services as a liaison for those who provide loans and those who need loans include funding from individuals, organizations, and legal entities to certain individuals or legal entities . The company does not provide any form of funding advice or recommendations regarding the choices on this site.",
+        "footer-bottom-paragraph-oneTwo":"The contents and materials available on the KoinWorks website are intended to provide information and are not considered an offer, request, invitation, suggestion or recommendation for investing in securities, capital market products, or other financial services. Companies in providing services are only limited to administrative functions. Funding and loans placed in KoinWorks accounts are not and will not be considered deposits held by the Company as stipulated in the Laws on Banking in Indonesia. The Company or any Directors, Employees, Employees, Representatives, Affiliates, or Agents do not have any responsibility related to any interruption or problems that occur or are considered to occur due to lack of preparation or publication of the material listed on the Company's website."
+    }
+}

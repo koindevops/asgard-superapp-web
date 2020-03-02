@@ -1,0 +1,62 @@
+{
+  "homeLanguage": {
+    "homeSolutionText": "One Stop Financial Solutions for Personal & Business",
+    "homeSolutionTextParagraph": "Take control of all your financial goals for the future with the most convenient app, right in one dashboard, right at your fingertips.",
+    "homeSolutionMobile": "Start Now, For Free"
+  },
+  "homeSliderMedia": {
+    "homeSliderMediaSAW": " “KoinWorks utilizes a suitable business model for Indonesia because it helps build enterprises and deliver solutions that impact people's lives.” - Tech in Asia",
+    "homeSliderMediaKontan": " “Seeing that almost every SMEs have adopted digital market, this is a market potential that KoinWorks has been focusing on where the company aims to have financial inclusion in the country.” - e27",
+    "homeSliderMediaKompas": "“By leveraging machine learning, KoinWorks offers low-interest loans for borrowers while promising better returns for lenders.” - Kr-asia.com",
+    "homeSliderMediaInvestor": "“The idea of KoinWorks is to cater to small and medium businesses where a majority of the players are still unbanked and underbanked.” - DealStreetAsia"
+  },
+  "homeTrustedSuperApp": {
+    "homeTrustedHeading": "The First and Trusted Super Financial App in Indonesia",
+    "homeTrustedParagraph": "Used and loved by more than 300.000 users who are closer to their financial goals. Now, it’s your turn! Download and get started."
+  },
+  "homeStatistikKoinworks": {
+    "homeStatistikKoinworksLabel": "KoinWorks Statistics",
+    "homeStatistikTkb": "98,97%",
+    "homeStatistikTkbText": "TKB90",
+    "homeStatisLoanIndividual": "Total Loan Since Founded",
+    "homeStatisTotalLoanThisYear": "Total Loan This Year",
+    "homeStatisTotalOutsandingLoan": "Total Outstanding Loan",
+    "homeStatisUser": "3281 User",
+    "homeStatisUserInstitutional": "292 Users",
+    "homeStatisUserActiveIndividual": "1776 Users",
+    "homeStatisUserUsed": "43 Users",
+    "homeStatisInvidiual": "Individual Borrowers",
+    "homeStatisInstitusional": "Individual Institutional",
+    "homeStatisActiveIndividual": "Active Individual Borrower",
+    "homeStatisInstitutionalActive": "Active Institutional Borrower"
+  },
+  "homeFinancialChoices": {
+    "homeFinancialChoicesHeading": "Helping You Make Smart Financial Choices",
+    "homeFinancialDescriptionOne": "Easily access your personal and business financial needs in one convenient place, just a few taps away.",
+    "homeFinancialLabel": "Anytime, Anywhere",
+    "homeFinancialDescriptionTwo": "No matter where you are or what you are doing, connect seamlessly anytime, anywhere.",
+    "homeFinancialLabelTwo": "Accessible for Everyone",
+    "homeFinancialDescriptionThree": "Start lending from IDR100.000 or get responsible loans to achieve your financial dreams.",
+    "homeFinancialLabelThree": "Effortless & Time-Saving",
+    "homeFinancialDescriptionFour": "Just sit and relax, let us take care all of your financial needs."
+  },
+  "homeProductKoinworks": {
+    "homeProductKoinworksHeading": "Our Products",
+    "homeProductKoinworksDescription": "We are uniting you and your financial needs in one super app.",
+    "homeProductKoinworksWealth": "Wealth",
+    "homeProductKoinworksLoan" : "Loan",
+    "homeProductKoinworksDescKoinRobo": "Automatically diversified your portfolio and get fixed return while making social impact to others.",
+    "homeProductKoinworksP2p": "Start lending and make meaningful action with as little as Rp100,000, get EAR from 18% p.a.",
+    "homeProductKoinBisnis":"Where SMEs can get hassle-free financing up to Rp2 billion with no collateral, within 1 day!"
+  },
+  "homeHowToUseKoinworks": {
+    "homeHowToUseKoinworksHeading":"How to Use Koinworks",
+    "homeHowToUseKoinworksParagphSlideOne" : "Download Our Super Financial App",
+    "homeHowToUseKoinworksDescriptionSlideOne" : "Available on Google Play and Play Store, For Free.",
+    "homeHowToUseKoinworksHeadingTwo": "Sign Up",
+    "homeHowToUseKoinworksDescriptionSlideTwo": "Super simple procedure. Just tell us basic details about you and/or your business.",
+    "homeHowToUseKoinworksHeadingThree" : "Chosee Your Suitable Needs",
+    "homeHowToUseKoinworksDescriptionSlideThree": "Be a Lender to grow your assets with ease then earn returns or get financed for personal & business needs as a Borrower or even be both at once, it's yours to decide ",
+    "homeHowToUseKoinworksHeadingFour" : "You’re all set to enjoy our new financial experience!"
+  }
+}

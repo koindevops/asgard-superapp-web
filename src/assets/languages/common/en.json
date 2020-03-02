@@ -1,0 +1,8 @@
+{
+    "or" : {
+        "common_or" : "or"
+    },
+    "leanMore":{
+        "common_leanmore": "LEAN MORE"
+    }
+}
