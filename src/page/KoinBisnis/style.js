@@ -165,13 +165,13 @@ export const Section = styled.div`
       color: #566068;
     }
     ol li::before {
-        margin-right: 5px;
-        content: counter(my-awesome-counter);
-        font-family: Source Sans Pro;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 22px;
-        color: #566068;
+      margin-right: 5px;
+      content: counter(my-awesome-counter);
+      font-family: Source Sans Pro;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 22px;
+      color: #566068;
     }
     h3 {
       font-style: normal;
@@ -179,19 +179,63 @@ export const Section = styled.div`
       font-size: 46px;
       color: #071e35;
     }
-    @media screen and (max-width:800px){
-        &__noSlider {
-            display: none;
-        }
-        h3 {
-            text-align: center;
-            font-size: 29px;
-        }
+    @media screen and (max-width: 800px) {
+      &__noSlider {
+        display: none;
+      }
+      h3 {
+        text-align: center;
+        font-size: 29px;
+      }
     }
-    @media screen and (min-width:800px){
-        &__slider {
-            display: none;
+    @media screen and (min-width: 800px) {
+      &__slider {
+        display: none;
+      }
+    }
+  }
+
+  .kw-KoinBisnisLoanInterested-wrapper {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    min-height: 613px;
+    background-color: rgb(248, 252, 255);
+    &__card-wrapper {
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+      height: 400px;
+      background: #60b5df;
+      ul {
+        list-style: none;
+      }
+      li {
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 55px;
+        color: #ffffff;
+      }
+      &__heading {
+        width: 100%;
+        height: 120px;
+        background: #35a5dc;
+        padding: 15px;
+        strong {
+          font-weight: 800;
+          font-size: 17px;
+          color: #ffffff;
         }
+        span {
+          font-weight: 300;
+          font-size: 32px;
+          color: #ffffff;
+        }
+      }
+    }
+    h3 {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 46px;
+      color: #071e35;
     }
   }
 `;

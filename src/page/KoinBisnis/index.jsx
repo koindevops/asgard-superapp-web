@@ -7,6 +7,7 @@ import KoinBisnisHowWorks from "../../components/KoinBisnisHowWorks";
 import HomeSliderMedia from "../../components/HomeSliderMedia";
 import HomeHowToUseKoinworks from "../../components/HomeHowToUseKoinworks";
 import KoinP2pTrusted from "../../components/KoinP2pTrusted";
+import KoinBisnisLoanInterested from "../../components/KoinBisnisLoanInterested";
 
 function KoinBisnis(props) {
     const imageSlider = [
@@ -58,6 +59,7 @@ function KoinBisnis(props) {
       <KoinBisnisPoint />
       <KoinBisnisWhy />
       <KoinBisnisHowWorks/>
+      <KoinBisnisLoanInterested/>
       <HomeSliderMedia />
         <div style={{ marginTop: 130 }}>
           <KoinP2pTrusted />

@@ -40,5 +40,8 @@
     "description-Five": "Pinjaman terdanai minimal 80% dan dicairkan ke rekening Peminjam.",
     "description-Six": "Peminjam memanfaatkannya dan membayar cicilan sesuai tenor.",
     "description-Seven": "Sistem KoinWorks secara otomatis menyalurkan pengembalian ke Pendana berdasarkan porsi pendanaan masing-masing Pendana (Pokok+Bunga)."
+  },
+  "koinbisnisLoanInterested": {
+    "heading": "Persyaratan, Bunga dan Biaya Pinjaman"
   }
 }
