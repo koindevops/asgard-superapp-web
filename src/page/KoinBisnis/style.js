@@ -165,13 +165,13 @@ export const Section = styled.div`
       color: #566068;
     }
     ol li::before {
-        margin-right: 5px;
-        content: counter(my-awesome-counter);
-        font-family: Source Sans Pro;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 22px;
-        color: #566068;
+      margin-right: 5px;
+      content: counter(my-awesome-counter);
+      font-family: Source Sans Pro;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 22px;
+      color: #566068;
     }
     h3 {
       font-style: normal;
@@ -179,19 +179,62 @@ export const Section = styled.div`
       font-size: 46px;
       color: #071e35;
     }
-    @media screen and (max-width:800px){
-        &__noSlider {
-            display: none;
-        }
-        h3 {
-            text-align: center;
-            font-size: 29px;
-        }
+    @media screen and (max-width: 800px) {
+      &__noSlider {
+        display: none;
+      }
+      h3 {
+        text-align: center;
+        font-size: 29px;
+      }
     }
-    @media screen and (min-width:800px){
-        &__slider {
-            display: none;
+    @media screen and (min-width: 800px) {
+      &__slider {
+        display: none;
+      }
+    }
+  }
+
+  .kw-KoinBisnisLoanInterested-wrapper {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    min-height: 613px;
+    background-color: rgb(248, 252, 255);
+    &__card-wrapper {
+      width: 318px;
+      height: 400px;
+      background: #60b5df;
+      &__heading {
+        width: 318px;
+        height: 100px;
+        background: #35a5dc;
+        padding: 15px;
+        strong {
+          font-family: Source Sans Pro;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 17px;
+          line-height: 20px;
+          letter-spacing: -0.24px;
+          text-transform: uppercase;
+          color: #ffffff;
         }
+        span {
+          font-family: Source Sans Pro;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 32px;
+          line-height: 40px;
+          letter-spacing: 0.41px;
+          color: #ffffff;
+        }
+      }
+    }
+    h3 {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 46px;
+      color: #071e35;
     }
   }
 `;

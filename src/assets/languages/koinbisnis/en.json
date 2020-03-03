@@ -40,5 +40,8 @@
       "description-Five": "Loan is fully funded and disbursed into the Borrower’s assigned bank account.",
       "description-Six": "The Borrower starts using it and pay monthly installments.",
       "description-Seven": "KoinWorks system automatically distributes returns to Lenders based on the portion of their funding (Principal + Interest)."
+  },
+  "koinbisnisLoanInterested": {
+    "heading": "Requirements, Rates, & Fees"
   }
 }
