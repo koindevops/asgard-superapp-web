@@ -1,5 +1,6 @@
-import styled from "styled-components";
+import styled from "./node_modules/styled-components";
 import Background from "../../assets/image/home-cover-background.png";
+
 
 export const Section = styled.div`
   .kw-home-background {
