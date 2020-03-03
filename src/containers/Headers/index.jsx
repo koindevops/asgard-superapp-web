@@ -55,33 +55,47 @@ function Headers() {
     i18n.changeLanguage(language);
   };
 
+  const menuNameWealth = (
+    <Menu style={{ width: 180 }}>
+      <Menu.Item>
+        <Link to="/koinp2p">KoinP2P</Link>
+      </Menu.Item>
+      <Menu.Item>
+        <Link to="/koinrobo">KoinRobo</Link>
+      </Menu.Item>
+      <Menu.Item>
+        <Link to="/diversification">Diversifikasi</Link>
+      </Menu.Item>
+    </Menu>
+  );
+
+  const menuNameLoans = (
+    <Menu style={{ width: 180 }}>
+      <Menu.Item>
+        <Link to="/koinbisnis">KoinBisnis</Link>
+      </Menu.Item>
+      <Menu.Item>
+        <a
+          href="https://koinworks.com/id/pinjaman/dana-pendidikan"
+          target="_blank"
+        >
+          KoinPintar
+        </a>
+      </Menu.Item>
+    </Menu>
+  );
+
   const menu = (
-    <Menu>
+    <Menu style={{ width: 180 }}>
       <Menu.Item>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="http://www.alipay.com/"
-        >
-          1st menu item
-        </a>
+        <Link to="/koinbisnis">KoinBisnis</Link>
       </Menu.Item>
       <Menu.Item>
         <a
+          href="https://koinworks.com/id/pinjaman/dana-pendidikan"
           target="_blank"
-          rel="noopener noreferrer"
-          href="http://www.taobao.com/"
         >
-          2nd menu item
-        </a>
-      </Menu.Item>
-      <Menu.Item>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="http://www.tmall.com/"
-        >
-          3rd menu item
+          KoinPintar
         </a>
       </Menu.Item>
     </Menu>
@@ -110,15 +124,17 @@ function Headers() {
     <Section>
       <div className={`kw-headers-wrapper ${kwHeaderStuck}`}>
         <div className={`kw-headers-wrapper__main-desktop ${scrollClasses}`}>
-          <img
-            src={require(checkScrollHeader
-              ? "../../assets/image/koinworks-white-logo.png"
-              : "../../assets/image/koinworks-logo.png")}
-            alt="kw-logo-koinworks"
-            style={{ maxHeight: checkScrollHeader ? 35 : 27 }}
-          />
+          <Link to="/">
+            <img
+              src={require(checkScrollHeader
+                ? "../../assets/image/koinworks-white-logo.png"
+                : "../../assets/image/koinworks-logo.png")}
+              alt="kw-logo-koinworks"
+              style={{ maxHeight: checkScrollHeader ? 35 : 27 }}
+            />
+          </Link>
           <div className="kw-headers-wrapper__main-menu">
-            <Dropdown overlay={menu}>
+            <Dropdown overlay={menuNameWealth}>
               <Link
                 to="#"
                 className={
@@ -132,7 +148,7 @@ function Headers() {
                 <Icon type="down" />
               </Link>
             </Dropdown>
-            <Dropdown overlay={menu}>
+            <Dropdown overlay={menuNameLoans}>
               <Link
                 to="#"
                 className={
@@ -146,25 +162,25 @@ function Headers() {
               </Link>
             </Dropdown>
 
-            <Link
+            <a
               className={
                 checkScrollHeader ? `ant-dropdown-link` : `ant-dropdown-active`
               }
-              to="#"
-              onClick={e => e.preventDefault()}
+              href="https://koinworks.com/super-app/fitur/"
+              target="_blank"
             >
               {t("menuHeaders:nameHeaders.nameFeatures")}
-            </Link>
+            </a>
 
-            <Link
-              to="#"
+            <a
+              href="https://koinworks.com/blog/"
               className={
                 checkScrollHeader ? `ant-dropdown-link` : `ant-dropdown-active`
               }
-              onClick={e => e.preventDefault()}
+              target="_blank"
             >
               Blog
-            </Link>
+            </a>
 
             <Dropdown overlay={menu}>
               <Link
@@ -200,9 +216,9 @@ function Headers() {
         <div
           id="bottomHeader"
           className={`${
-            checkScrollHeader ? 
-            "kw-headers-wrapper__main-mobile" : 
-            "kw-headers-wrapper__main-mobile-no-active"
+            checkScrollHeader
+              ? "kw-headers-wrapper__main-mobile"
+              : "kw-headers-wrapper__main-mobile-no-active"
           }  ${scrollClasses}`}
         >
           <HeadersMobile

@@ -7,6 +7,52 @@ export const GlobalStyle = createGlobalStyle`
     # Global
   \*------------------------------------*/
 
+  .kw-koinp2p-profil-wrapper {
+    margin-bottom: 35px;
+    &__heading-text {
+      margin-top: 55px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      &__image {
+        display: block;
+        margin: auto;
+      }
+      h3 {
+        font-weight: 400;
+        font-size: 48px;
+        color: #071e35;
+        text-align: center;
+      }
+      p {
+        width: 60%;
+        margin: 0 auto;
+        font-weight: normal;
+        font-size: 22px;
+        text-align: center;
+        margin-bottom: 45px;
+        color: #566068;
+      }
+      @media screen and (max-width: 725px) {
+        h3 {
+          font-size: 30px;
+        }
+        p {
+          width: 100%;
+          font-size: 20px;
+        }
+        &__image {
+          display: none;
+        }
+      }
+      @media screen and (min-width: 726px) {
+        &__slider {
+          display: none;
+        }
+      }
+    }
+  }
+
   .modal-video-slider .ant-modal-content {
     background-color: unset !important;
     box-shadow: unset !important;

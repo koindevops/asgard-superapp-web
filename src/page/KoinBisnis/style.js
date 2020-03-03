@@ -293,8 +293,22 @@ export const Section = styled.div`
       font-style: normal;
       font-weight: 400;
       font-size: 46px;
-      color: #071E35;
+      color: #071e35;
+      margin-top: 100px;
+    }
+    p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 22px;
+      color: #566068;
+    }
+    img {
+      width: 100%;
+    }
+    @media screen and (max-width:700px){
+      h3 {
+        margin-top: 0px;
+      }
     }
   }
-
 `;

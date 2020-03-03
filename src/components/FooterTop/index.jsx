@@ -1,6 +1,7 @@
 import React from "react";
 import { Row, Col } from "antd";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 function FooterTop() {
   const { t } = useTranslation();
@@ -71,27 +72,27 @@ function FooterTop() {
             </span>
             <li>
               {" "}
-              <a href="/">
+              <Link to="/koinp2p">
                 {t("footer:footer-top-link.footer-top-link-koinp2p")}
-              </a>
+              </Link>
             </li>
             <li>
               {" "}
-              <a href="/">
+              <Link to="/koinrobo">
                 {t("footer:footer-top-link.footer-top-link-koinrobo")}
-              </a>
+              </Link>
             </li>
             <li>
               {" "}
-              <a href="/">
+              <Link to="/koinBisnis">
                 {t("footer:footer-top-link.footer-top-link-koinBisnis")}
-              </a>
+                </Link>
             </li>
             <li>
               {" "}
-              <a href="/">
+              <Link to="/koinPintar">
                 {t("footer:footer-top-link.footer-top-link-koinPintar")}
-              </a>
+              </Link>
             </li>
           </ul>
         </Col>

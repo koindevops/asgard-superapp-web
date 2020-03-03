@@ -29,25 +29,22 @@ function KoinBisnis(props) {
             "homeLanguage:homeHowToUseKoinworks.homeHowToUseKoinworksDescriptionSlideTwo"
         },
         {
-          image: require("../../assets/image/koinp2p-image/How to Use P2P - 2.png"),
-          label: "koinp2p:koinp2p.koinp2p-content-howToUse-sliderThreeHeading",
+          image: require("../../assets/image/koinbisnis-image/How-to-Use-Bisnis-2.png"),
+          label: "koinbisnis:koinbisnisInspiring.slideThreeHeading",
           description:
-            "koinp2p:koinp2p.koinp2p-content-howToUse-sliderThreeDescription"
+            "koinbisnis:koinbisnisInspiring.descriptionOne"
         },
         {
-          image: require("../../assets/image/koinrobo-image/How-to-Use-Robo-3.png"),
-          label: "koinrobo:koinrobo.koinrobo-howToUseLabelFour",
-          description: "koinrobo:koinrobo.koinrobo-descriptionFour"
+          image: require("../../assets/image/koinbisnis-image/How-to-Use-Bisnis-3.png"),
+          label: "koinbisnis:koinbisnisInspiring.slideFourHeading",
+          description:
+            "koinbisnis:koinbisnisInspiring.descriptionFour"
         },
         {
-          image: require("../../assets/image/koinrobo-image/How-to-Use-Robo-4.png"),
-          label: "koinrobo:koinrobo.koinrobo-howToUseLabelFive",
-          description: "koinrobo:koinrobo.koinrobo-descriptionFive"
-        },
-        {
-          image: require("../../assets/image/koinrobo-image/How-to-Use-Robo-5.png"),
-          label: "koinrobo:koinrobo.koinrobo-howToUseLabelSix",
-          description: "koinrobo:koinrobo.koinrobo-descriptionSix"
+          image: require("../../assets/image/koinbisnis-image/How-to-Use-Bisnis-4.png"),
+          label: "koinbisnis:koinbisnisInspiring.slideFiveHeading",
+          description:
+            "koinbisnis:koinbisnisInspiring.descriptionFive"
         },
         {
           image: require("../../assets/image/koinp2p-image/How to Use P2P - 7.png"),
@@ -68,7 +65,7 @@ function KoinBisnis(props) {
         </div>
         <HomeHowToUseKoinworks
           imageSlider={imageSlider}
-          headingTitle="koinrobo:koinrobo.koinrobo-howToUse"
+          headingTitle="koinbisnis:koinbisnis.how-to-use"
         />
     </Section>
   );

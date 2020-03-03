@@ -14,6 +14,8 @@ import koinrobo_id from "../assets/languages/koinrobo/id.json";
 import koinrobo_en from "../assets/languages/koinrobo/en.json";
 import koinbisnis_id from "../assets/languages/koinbisnis/id.json";
 import koinbisnis_en from "../assets/languages/koinbisnis/en.json";
+import diversification_id from "../assets/languages/diversification/id.json";
+import diversification_en from "../assets/languages/diversification/en.json";
 
 i18n.use(initReactI18next).init({
   lng: "id",
@@ -30,7 +32,8 @@ i18n.use(initReactI18next).init({
       footer: footer_id,
       koinp2p: koinp2p_id,
       koinrobo: koinrobo_id,
-      koinbisnis: koinbisnis_id
+      koinbisnis: koinbisnis_id,
+      diversification: diversification_id
     },
     en: {
       menuHeaders: menuHeaders_en,
@@ -39,7 +42,8 @@ i18n.use(initReactI18next).init({
       footer: footer_en,
       koinp2p: koinp2p_en,
       koinrobo: koinrobo_en,
-      koinbisnis : koinbisnis_en
+      koinbisnis : koinbisnis_en,
+      diversification : diversification_en
     }
   }
 });

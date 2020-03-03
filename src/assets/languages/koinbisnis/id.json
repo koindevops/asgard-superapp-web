@@ -1,4 +1,7 @@
 {
+  "koinbisnis":{
+    "how-to-use": "Cara Menggunakan KoinBisnis"
+  },
   "koinbisnisTop": {
     "heading-label": "Tingkatkan Pertumbuhan Bisnis",
     "description": "Bisnis apapun yang kamu jalankan pasti punya potensi untuk lebih maju. Dapatkan tambahan modal bisnis tanpa agunan hingga Rp2 Miliar dengan mudah dan cepat untuk pengembangan bisnismu dari KoinBisnis.",
@@ -61,5 +64,15 @@
     "listThreeCardFour": "Asuransi Jiwa",
     "listThreeCardFive": "Biaya Administrasi",
     "listThreeCardSix": "Jumlah Pinjaman Maksimal"
+  },
+  "koinbisnisInspiring": {
+    "heading" : "Jadilah Inspirasi Berikutnya",
+    "description": "Simak kisah inspiratif mereka yang punya keberanian untuk mewujudkan impian mereka dan terinspirasilah untuk mewujudkan mimpimu. Ciptakan peluangmu sendiri dan jadilah inspirasi berikutnya.",
+    "slideThreeHeading": "Tunggu Konfirmasi",
+    "descriptionOne": "Tunggu sebentar ya, Kami akan memproses pengajuanmu dan segera menghubungi kamu untuk langkah selanjutnya.",
+    "slideFourHeading": "Proses Pendanaan",
+    "descriptionFour": "Setelah disetujui, pinjaman kamu akan masuk ke dalam marketplace . Ketika pinjamanmu sudah terdanai secara penuh, kami akan mencairkannya ke rekening bank kamu. ",
+    "slideFiveHeading": "Saatnya Membayar Cicilan",
+    "descriptionFive": "Saatnya bayar cicilan. Yuk! Bayar cicilan-mu tepat waktu. Jika kamu ingin melakukan pelunasan lebih awal, tidak akan dikenakan biaya tambahan "
   }
 }
