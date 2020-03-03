@@ -32,7 +32,7 @@ export const Section = styled.div`
         width: 100%;
       }
       &__imageLicensedByOjk {
-        margin-top:0px;
+        margin-top: 0px;
       }
     }
   }
@@ -63,6 +63,11 @@ export const Section = styled.div`
       font-size: 28px;
       font-weight: normal;
       color: #071e35;
+    }
+    @media screen and (max-width: 750px) {
+      &__content-paragraphOne {
+        width: 100%;
+      }
     }
   }
 
@@ -224,7 +229,7 @@ export const Section = styled.div`
       padding-bottom: 45px;
     }
   }
-  
+
   .kw-koinp2p-they-help {
     img {
       width: 100%;
@@ -308,6 +313,4 @@ export const Section = styled.div`
       }
     }
   }
-
-
 `;
