@@ -1,6 +1,7 @@
 import React from "react";
 import { Row, Col } from "antd";
 import { useTranslation } from "react-i18next";
+import VideoLink from "../../components/VideoLink";
 
 function KoinP2pFinancialApp() {
   const { t } = useTranslation();
@@ -15,9 +16,9 @@ function KoinP2pFinancialApp() {
           </a>
         </Col>
         <Col md={14}>
-          <img
-            src={require("../../assets/image/koinp2p-image/lives-with-koinworks-super-financial-app-1.png")}
-            alt=""
+          <VideoLink
+            video="https://www.youtube.com/embed/ZgTo-SQtnSs"
+            image={require("../../assets/image/koinp2p-image/lives-with-koinworks-super-financial-app-1.png")}
           />
         </Col>
       </Row>
