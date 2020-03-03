@@ -42,6 +42,24 @@
     "description-Seven": "Sistem KoinWorks secara otomatis menyalurkan pengembalian ke Pendana berdasarkan porsi pendanaan masing-masing Pendana (Pokok+Bunga)."
   },
   "koinbisnisLoanInterested": {
-    "heading": "Persyaratan, Bunga dan Biaya Pinjaman"
+    "heading": "Persyaratan, Bunga dan Biaya Pinjaman",
+    "labelStrongOneTwo": "SYARAT UNTUK",
+    "labelSpanOne": "Perorangan",
+    "labelSpanTwo" : "Perusahaan",
+    "labelStrongThree": "BUNGA & BIAYA",
+    "listOneCardOne" : "KTP",
+    "listOneCardTwo" : "NPWP (bila pengajuan diatas Rp50juta)",
+    "listOneCardThree": "Kartu Keluarga (bila menikah)",
+    "listOneCardFour": "Mutasi Rekening (3 bulan terakhir)",
+    "listTwoCardOne": "KTP Direktur/Pemilik",
+    "listTwoCardTwo": "NPWP Perusahaan",
+    "listTwoCardThree": "Akta Perubahan Perusahaan (Terbaru)",
+    "listTwoCardFour": "Mutasi Rekening (3 bulan terakhir)",
+    "listTwoCardFive": "Laporan Keuangan",
+    "listThreeCardOne": "Bunga / Bulan",
+    "listThreeCardTwo": "Biaya Persetujuan Kredit",
+    "listThreeCardFour": "Asuransi Jiwa",
+    "listThreeCardFive": "Biaya Administrasi",
+    "listThreeCardSix": "Jumlah Pinjaman Maksimal"
   }
 }

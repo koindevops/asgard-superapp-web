@@ -196,39 +196,84 @@ export const Section = styled.div`
   }
 
   .kw-KoinBisnisLoanInterested-wrapper {
+    margin-top: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
     min-height: 613px;
     background-color: rgb(248, 252, 255);
+    ul {
+      list-style: none;
+    }
+    li {
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 55px;
+      color: #ffffff;
+    }
+    strong {
+      font-weight: 800;
+      font-size: 17px;
+      color: #ffffff;
+    }
+    span {
+      font-weight: 300;
+      font-size: 32px;
+      color: #ffffff;
+    }
     &__card-wrapper {
       margin-left: 1.5rem;
       margin-right: 1.5rem;
-      height: 400px;
+      height: 500px;
       background: #60b5df;
-      ul {
-        list-style: none;
-      }
-      li {
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 55px;
-        color: #ffffff;
-      }
       &__heading {
         width: 100%;
         height: 120px;
         background: #35a5dc;
         padding: 15px;
-        strong {
-          font-weight: 800;
-          font-size: 17px;
-          color: #ffffff;
-        }
-        span {
-          font-weight: 300;
-          font-size: 32px;
-          color: #ffffff;
-        }
+      }
+    }
+    &__card-wrapper-center {
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+      height: 500px;
+      background: #479bff;
+      &__heading {
+        width: 100%;
+        height: 120px;
+        background: #1c74dc;
+        padding: 15px;
+      }
+    }
+    &__card-wrapper-right {
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+      height: 500px;
+      background: #f2f2f2;
+      &__heading {
+        width: 100%;
+        height: 120px;
+        background: #e2dfdf;
+        padding: 15px;
+      }
+      b {
+        font-size: 26px;
+        display: block;
+        color: #378df4;
+      }
+      strong {
+        color: #566068;
+        text-align: center;
+        font-weight: 500;
+        display: block;
+        font-size: 25px;
+        line-height: 100px;
+      }
+      ul {
+        margin-top: 10px;
+      }
+      li {
+        color: #566068;
+        line-height: 35px;
       }
     }
     h3 {
@@ -238,4 +283,18 @@ export const Section = styled.div`
       color: #071e35;
     }
   }
+
+  .kw-koinBisnisInspiring-wrapper {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    min-height: 673px;
+    background-color: rgb(248, 252, 255);
+    h3 {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 46px;
+      color: #071E35;
+    }
+  }
+
 `;
