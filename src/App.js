@@ -48,8 +48,8 @@ function App() {
            fingertips."
           />
           <meta
-            name="kw-image:image:src"
-            content={`./assets/image/koinworks-super-financial-app-pertama-di-indonesia.png`}
+            property="og:image"
+            content="${require('./assets/image/koinworks-super-financial-app-pertama-di-indonesia.png')}"
           ></meta>
           <title>KoinWorks | Super Financial App Pertama di Indonesia</title>
         </MetaTags>
