@@ -53,7 +53,7 @@ function HomeTrustedSuperApp() {
           <div className="kw-home-trusted-super-app">
             <h3>{t("homeLanguage:homeTrustedSuperApp.homeTrustedHeading")}</h3>
             <p>{t("homeLanguage:homeTrustedSuperApp.homeTrustedParagraph")}</p>
-            <a href="#">
+            <a href="https://koinworks.com/super-app/fitur/" rel="noopener noreferrer" target="_blank">
               <span>{t("common:leanMore.common_leanmore")}</span>
             </a>
           </div>

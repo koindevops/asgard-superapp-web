@@ -126,6 +126,7 @@ function KoinP2pProfil(props) {
             src={require(checkKoinP2pProfil
               ? "../../assets/image/koinp2p-image/grade-keuntungan-risiko-koinp2p-koinworks-id.svg"
               : "../../assets/image/koinp2p-image/grade-keuntungan-risiko-koinp2p-koinworks.svg")}
+              alt=""
           />
         </div>
         <div className="kw-koinp2p-profil-wrapper__heading-text__slider">

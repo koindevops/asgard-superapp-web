@@ -1,7 +1,6 @@
 import React from "react";
 import { Row, Col } from "antd";
-import { useTranslation, Trans } from "react-i18next";
-import i18next from "i18next";
+import { useTranslation } from "react-i18next";
 
 function KoinP2pFuturGift(props) {
   const { t } = useTranslation();

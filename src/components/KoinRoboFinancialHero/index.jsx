@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import { useTranslation } from "react-i18next";
-import { Row, Col, Modal } from "antd";
+import { Row, Col} from "antd";
 import VideoLink from "../VideoLink";
 
 function KoinRoboFinancialApp() {
@@ -14,6 +14,7 @@ function KoinRoboFinancialApp() {
           <a
             href="https://koinworks.com/super-app/koinrobo/?shortlink=robomiddle&pid=web&c=koinrobo&af_channel=middle&af_click_lookback=30d"
             target="_blank"
+            rel="noopener noreferrer"
           >
             {t("koinrobo:koinrobo.koinrobo-financialHero-link")}
           </a>

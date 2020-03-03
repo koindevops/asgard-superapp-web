@@ -1,6 +1,6 @@
 import React from "react";
 import { Section } from "./style";
-import { Menu, Dropdown, Icon, Affix, Row } from "antd";
+import { Menu, Dropdown, Icon } from "antd";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import { Link } from "react-router-dom";
@@ -25,9 +25,7 @@ function Headers(props) {
   const [kwHeaderStuck, setKwHeaderStuck] = useState("");
   const { t, i18n } = useTranslation();
 
-
   console.log(props.match.children.props.location.pathname);
-  
 
   useEffect(() => {
     updateHeaderHeight();
@@ -80,6 +78,7 @@ function Headers(props) {
       </Menu.Item>
       <Menu.Item>
         <a
+          rel="noopener noreferrer"
           href="https://koinworks.com/id/pinjaman/dana-pendidikan"
           target="_blank"
         >
@@ -96,6 +95,7 @@ function Headers(props) {
       </Menu.Item>
       <Menu.Item>
         <a
+          rel="noopener noreferrer"
           href="https://koinworks.com/id/pinjaman/dana-pendidikan"
           target="_blank"
         >
@@ -170,13 +170,14 @@ function Headers(props) {
               className={
                 checkScrollHeader ? `ant-dropdown-link` : `ant-dropdown-active`
               }
+              rel="noopener noreferrer"
               href="https://koinworks.com/super-app/fitur/"
               target="_blank"
             >
               {t("menuHeaders:nameHeaders.nameFeatures")}
             </a>
-
             <a
+              rel="noopener noreferrer"
               href="https://koinworks.com/blog/"
               className={
                 checkScrollHeader ? `ant-dropdown-link` : `ant-dropdown-active`

@@ -21,6 +21,7 @@ function VideoLink(props) {
         >
           <div className="video-wrapper">
             <iframe
+            title="video-koinworks"
               width="560"
               height="315"
               src={video}
