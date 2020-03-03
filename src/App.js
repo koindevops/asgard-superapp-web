@@ -38,22 +38,6 @@ function App() {
   });
   return (
     <React.Fragment>
-      <Helmet>
-        <MetaTags>
-          <meta
-            name="description"
-            content="Wujudkan segala impian finansialmu di masa depan, hanya melalui satu dasbor dan ujung jarimu dengan KoinWorks, 
-          super financial app pertama di Indonesia. | 
-          Take control of all your financial goals for the future with the most convenient app, right in one dashboard, right at your
-           fingertips."
-          />
-          <meta
-            property="og:image"
-            content="${require('./assets/image/koinworks-super-financial-app-pertama-di-indonesia.png')}"
-          ></meta>
-          <title>KoinWorks | Super Financial App Pertama di Indonesia</title>
-        </MetaTags>
-      </Helmet>
       <Router history={history}>
         <Switch>{routeComponents}</Switch>
       </Router>
