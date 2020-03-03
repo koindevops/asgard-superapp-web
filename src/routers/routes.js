@@ -4,6 +4,7 @@ import MainLayout from "../layouts/MainLayout";
 import KoinP2p from "../page/Koinp2p";
 import KoinRobo from "../page/KoinRobo";
 import KoinBisnis from "../page/KoinBisnis";
+import Diversifikasi from "../page/Diversifikasi";
 
 const routes = [
   {
@@ -24,6 +25,11 @@ const routes = [
   {
     path: PATH_URL.KOINBISNIS,
     component: KoinBisnis,
+    layout: MainLayout
+  },
+  {
+    path : PATH_URL.DIVERSIFICATION,
+    component : Diversifikasi,
     layout: MainLayout
   }
 ];

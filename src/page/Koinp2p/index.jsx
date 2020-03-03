@@ -79,7 +79,7 @@ function KoinP2p() {
       <KoinP2pSafe />
       <KoinP2pStatistic />
       <KoinP2pGetKnow />
-      <KoinP2pProfil />
+      <KoinP2pProfil diversifikasi={false} />
       <KoinP2pTheyHelp />
       <KoinP2pFinancialApp />
       <KoinP2pTrusted />

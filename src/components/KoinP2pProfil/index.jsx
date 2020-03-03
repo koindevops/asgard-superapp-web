@@ -2,8 +2,9 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import Slider from "react-slick";
 import { Row, Col } from "antd";
+import DiversifikasiKreditSkoring from "../DiversifikasiKreditSkoring";
 
-function KoinP2pProfil() {
+function KoinP2pProfil(props) {
   const { t } = useTranslation();
   const settings = {
     dots: true,
@@ -116,9 +117,10 @@ function KoinP2pProfil() {
 
   return (
     <div className="kw-koinp2p-profil-wrapper">
+      {props.diversifikasi ?  <DiversifikasiKreditSkoring /> : null}
       <div className="kw-koinp2p-profil-wrapper__heading-text">
-        <h3>{t("koinp2p:koinp2p.koinp2p-content-risiko-profil-label")}</h3>
-        <p>{t("koinp2p:koinp2p.koinp2p-content-risiko-profil-description")}</p>
+       {props.diversifikasi ? null:<h3>{t("koinp2p:koinp2p.koinp2p-content-risiko-profil-label")}</h3>}
+       {props.diversifikasi ? null: <p>{t("koinp2p:koinp2p.koinp2p-content-risiko-profil-description")}</p>}
         <div className="kw-koinp2p-profil-wrapper__heading-text__image">
           <img
             src={require(checkKoinP2pProfil

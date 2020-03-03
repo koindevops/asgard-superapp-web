@@ -1,0 +1,22 @@
+{
+    "diversifikasi" : {
+        "heading": "Penyusunan Portofolio",
+        "description": " Ada beberapa konsep utama yang akan membantu Anda dalam menyusun portofolio pendanaan di KoinWorks sesuai dengan tujuan finansial Anda."
+    },
+    "diversifikasiBestPratices": {
+        "heading": "Diversifikasi",
+        "headingSecond": "Praktik Terbaik dalam Menyusun Portofolio",
+        "description": "Pendanaan untuk satu Pinjaman dapat disebar ke banyak Pinjaman sekaligus dengan nominal masing-masing sebesar Rp100.000. Diversifikasikan portofolio pendanaan Anda dengan membeli banyak unit peruntukan di berbagai pinjaman. Ada pepatah yang mengatakan, ",
+        "descriptionTwo": ". Pepatah tersebut bisa diterapkan dalam urusan pendanaan. Itu artinya, Anda harus memasukkan diversifikasi dalam strategi penyusunan portofolio pendanaan Anda.",
+        "descriptionStrong": "“Jangan taruh semua telur di dalam satu keranjang”"
+    },
+    "diversifikasiWhat":{
+        "url-link": "halaman ini.",
+        "heading":"Apa Itu Diversifikasi?",
+        "description": "Diversifikasi adalah teknik pengelolaan risiko dengan menggabungkan berbagai produk atau instrumen pendanaan dalam sebuah portofolio. Prinsip dasarnya adalah bahwa portofolio pendanaan yang dibangun dari berbagai jenis produk atau instrumen pendanaan dapat memitigasi risiko apabila terjadi kerugian pada salah satu instrumen pendanaannya. Dalam hal ini, Pendana bisa memanfaatkan relatif kecilnya modal awal pendanaan yang sengaja ditetapkan oleh KoinWorks, yakni sebesar Rp100.000, untuk memecah alokasi modalnya ke banyak pinjaman sekaligus. Artinya, Pendana berkesempatan untuk membagi besaran risiko berdasarkan Grade, Tenor, Jenis Pinjaman, dan praktik yang paling direkomendasikan adalah dengan memiliki portofolio pendanaan berisi minimum 100 pinjaman sekaligus"
+    },
+    "diversifikatiKreditSkoring": {
+        "heading": "Penilaian Pinjaman",
+        "description": "Di KoinWorks, semua pinjaman yang telah lulus dari penilaian kredit akan diberikan credit scoring yang beragam. Pinjaman akan diberikan skor dari A hingga E, di mana secara berurut mengindikasikan tingkat risiko dari yang paling rendah sampai dengan tingkat risiko yang paling tinggi. Setiap skor juga memiliki 5 tingkat, dari A1 hingga A5, begitu seterusnya hingga yang terendah, dari E1 hingga E5. Semakin berisiko suatu pinjaman, semakin tinggi pula tingkat risiko gagal bayar. Untuk mengompensasi hal ini, pinjaman yang lebih berisiko dikenakan tingkat suku bunga yang lebih tinggi. Dengan keterangan di bawah ini, Anda dapat menemukan penjelasan lengkap mengenai tingkat risiko/pengembalian sebagai berikut:"
+    }
+}

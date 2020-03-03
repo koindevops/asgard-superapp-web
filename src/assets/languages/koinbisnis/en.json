@@ -1,4 +1,7 @@
 {
+  "koinbisnis": {
+    "how-to-use": "How to Use KoinBisnis"
+  },
   "koinbisnisTop": {
     "heading-label": "Boost Your Business Growth to the Next Level",
     "description": "Whatever type of business you are running, we believe that it has every potential needed to grow. Get up to IDR2 billion non-collateral business loans with instant approval from KoinBisnis and grow even further.",
@@ -21,34 +24,34 @@
     "labelOne": "Fast Disbursement",
     "descriptionOne": "With our artificial intelligent technology we can approve your loan from one day to three days, right into your account.",
     "labelTwo": "No Collateral Required",
-    "descriptionTwo":"You don’t need credit cards, property, or any other physical things to be collateral. We just need legal documentation and financial report.",
-    "labelThree":"Flexible Terms",
-    "descriptionThree":"We provide a loan repayment period of 6 – 24 months that you can adjust to your business performance or needs",
-    "labelFour":"No Early Repayment Fee",
-    "descriptionFour":"You can pay of your installment earlier than the tenor with no penalty fee. And, you can always reapply for another loan afterwards.",
-    "labelFive":"Easy Repayment",
-    "descriptionFive":"You can transfer the repayment right into your bank virtual account on KoinWorks and monitor if we have received your payment via app.",
-    "labelSix":"Responsible Collection",
-    "descriptionSix":"We are monitored and registered on OJK, so we will obey the OJK rules about credit collection procedure."
+    "descriptionTwo": "You don’t need credit cards, property, or any other physical things to be collateral. We just need legal documentation and financial report.",
+    "labelThree": "Flexible Terms",
+    "descriptionThree": "We provide a loan repayment period of 6 – 24 months that you can adjust to your business performance or needs",
+    "labelFour": "No Early Repayment Fee",
+    "descriptionFour": "You can pay of your installment earlier than the tenor with no penalty fee. And, you can always reapply for another loan afterwards.",
+    "labelFive": "Easy Repayment",
+    "descriptionFive": "You can transfer the repayment right into your bank virtual account on KoinWorks and monitor if we have received your payment via app.",
+    "labelSix": "Responsible Collection",
+    "descriptionSix": "We are monitored and registered on OJK, so we will obey the OJK rules about credit collection procedure."
   },
   "koinbisnisHowWorks": {
-      "heading" : "How KoinBisnis Works",
-      "description-One": "Borrower applies for a loan online via the app.",
-      "description-Two": "KoinWorks assesses the data and classifies the credit scores into five main tiers, from A – E.",
-      "description-Three": "The loan will then be issued into the marketplace.",
-      "description-Four": "Lenders assess the detailed information about the loan, decide and start funding it.",
-      "description-Five": "Loan is fully funded and disbursed into the Borrower’s assigned bank account.",
-      "description-Six": "The Borrower starts using it and pay monthly installments.",
-      "description-Seven": "KoinWorks system automatically distributes returns to Lenders based on the portion of their funding (Principal + Interest)."
+    "heading": "How KoinBisnis Works",
+    "description-One": "Borrower applies for a loan online via the app.",
+    "description-Two": "KoinWorks assesses the data and classifies the credit scores into five main tiers, from A – E.",
+    "description-Three": "The loan will then be issued into the marketplace.",
+    "description-Four": "Lenders assess the detailed information about the loan, decide and start funding it.",
+    "description-Five": "Loan is fully funded and disbursed into the Borrower’s assigned bank account.",
+    "description-Six": "The Borrower starts using it and pay monthly installments.",
+    "description-Seven": "KoinWorks system automatically distributes returns to Lenders based on the portion of their funding (Principal + Interest)."
   },
   "koinbisnisLoanInterested": {
     "heading": "Requirements, Rates, & Fees",
     "labelStrongOneTwo": "REQUIREMENTS FOR",
     "labelSpanOne": "Personal",
-    "labelSpanTwo" : "Business",
+    "labelSpanTwo": "Business",
     "labelStrongThree": "INTERESTED & FES",
-    "listOneCardOne" : "National ID Card",
-    "listOneCardTwo" : "Tax ID (if more than Rp50 milions)",
+    "listOneCardOne": "National ID Card",
+    "listOneCardTwo": "Tax ID (if more than Rp50 milions)",
     "listOneCardThree": "Family Card (if married)",
     "listOneCardFour": "Bank Statement (last 3 months)",
     "listTwoCardOne": "Director/Owner National ID Card",
@@ -61,5 +64,15 @@
     "listThreeCardFour": "Life Insurance",
     "listThreeCardFive": "Administration Fee",
     "listThreeCardSix": "Maximum Loan Amount"
+  },
+  "koinbisnisInspiring": {
+    "heading": "Get Inspired by Their Success Stories",
+    "description": "Listen to the inspiring stories of those who have the courage to realize their dreams and get inspired to achieve yours. Create your own opportunity and be the next inspiration.",
+    "slideThreeHeading": "Waiting for Confirmation",
+    "descriptionOne":"Just sit tight. We will immediately process your loan application and really eager to bring a good news regarding the next steps.",
+    "slideFourHeading":"Funding Process",
+    "descriptionFour":"Once approved, your loan will be released into the marketplace. The funding process will be started immediately and your loan can be disbursed to your bank account when it’s at least 80% funded.",
+    "slideFiveHeading": "Pay the Installment",
+    "descriptionFive": "It's time to pay the monthly installment. No additional fee or penalty if you decide to pay off your loan earlier than the assigned tenor."
   }
 }

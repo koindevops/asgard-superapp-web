@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Drawer, Button, Icon, Row, Col, Menu } from "antd";
 import "./HeadersMobile.css";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 const { SubMenu } = Menu;
 
@@ -57,40 +58,68 @@ function HeadersMobile(props) {
             key="sub1"
             title={<span> {t("menuHeaders:nameHeaders.nameWealth")}</span>}
           >
-            <Menu.Item key="1">Option 1</Menu.Item>
-            <Menu.Item key="2">Option 2</Menu.Item>
+            <Menu.Item key="1">
+              <Link to="/koinp2p">KoinP2P</Link>
+            </Menu.Item>
+            <Menu.Item key="2">
+              {" "}
+              <Link to="/koinrobo">KoinRobo</Link>
+            </Menu.Item>
+            <Menu.Item key="3">
+              {" "}
+              <Link to="/diversification">Diversifikasi</Link>
+            </Menu.Item>
           </SubMenu>
           <SubMenu
             key="sub2"
             title={<span> {t("menuHeaders:nameHeaders.nameLoans")}</span>}
           >
-            <Menu.Item key="3">Option 9</Menu.Item>
-            <Menu.Item key="4">Option 10</Menu.Item>
-            <Menu.Item key="5">Option 11</Menu.Item>
-            <Menu.Item key="6">Option 12</Menu.Item>
+            <Menu.Item key="4">
+              {" "}
+              <Link to="/koinbisnis">KoinBisnis</Link>
+            </Menu.Item>
+            <Menu.Item key="5">
+              {" "}
+              <a
+                href="https://koinworks.com/id/pinjaman/dana-pendidikan"
+                target="_blank"
+              >
+                KoinPintar
+              </a>
+            </Menu.Item>
           </SubMenu>
-          <Menu.Item key="7">{t("menuHeaders:nameHeaders.nameFeatures")}</Menu.Item>
-          <Menu.Item key="8">Blog</Menu.Item>
+          <Menu.Item key="6">
+            {t("menuHeaders:nameHeaders.nameFeatures")}
+          </Menu.Item>
+          <Menu.Item key="7">
+            {" "}
+            <a
+              href="https://koinworks.com/blog/"
+              target="_blank"
+            >
+              Blog
+            </a>
+          </Menu.Item>
           <SubMenu
             key="sub3"
             title={<span> {t("menuHeaders:nameHeaders.nameCompany")} </span>}
           >
-            <Menu.Item key="9">Option 9</Menu.Item>
-            <Menu.Item key="10">Option 10</Menu.Item>
-            <Menu.Item key="11">Option 11</Menu.Item>
-            <Menu.Item key="12">Option 12</Menu.Item>
+            <Menu.Item key="8">Option 9</Menu.Item>
+            <Menu.Item key="9">Option 10</Menu.Item>
+            <Menu.Item key="10">Option 11</Menu.Item>
+            <Menu.Item key="11">Option 12</Menu.Item>
           </SubMenu>
           <SubMenu
             key="sub4"
             title={<span>{t("menuHeaders:nameHeaders.nameLogin")} </span>}
           >
-            <Menu.Item key="13">Option 9</Menu.Item>
-            <Menu.Item key="14">Option 10</Menu.Item>
-            <Menu.Item key="15">Option 11</Menu.Item>
-            <Menu.Item key="16">Option 12</Menu.Item>
+            <Menu.Item key="12">Option 9</Menu.Item>
+            <Menu.Item key="13">Option 10</Menu.Item>
+            <Menu.Item key="14">Option 11</Menu.Item>
+            <Menu.Item key="15">Option 12</Menu.Item>
           </SubMenu>
         </Menu>
-        {props.languageButton}
+        <div style={{ marginTop: 20 }}>{props.languageButton}</div>
       </Drawer>
     </React.Fragment>
   );

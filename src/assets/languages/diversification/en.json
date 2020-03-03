@@ -1,0 +1,22 @@
+{
+    "diversifikasi" : {
+        "heading": "Managing Portfolio",
+        "description": "There are several key concepts that will help you in compiling your lending portfolio on KoinWorks according to your financial goals."
+    },
+    "diversifikasiBestPratices": {
+        "heading": "Diversification",
+        "headingSecond": "The Best Practices in Managing Portfolio",
+        "description": "Funds for one loan can be distributed into many loans at once starting from Rp100,000 for each loan. Diversify your Lending Portfolio by lending in loans with various risks and Grades. There is a saying, ",
+        "descriptionTwo": ". This saying can be applied in lending matters. That means, you must include diversification in your lending portfolio management strategy.",
+        "descriptionStrong": "“Don’t put all the eggs in one basket” "
+    },
+    "diversifikasiWhat":{
+        "url-link": "this page.",
+        "heading":"What is Diversification?",
+        "description":"Diversification is a risk management technique by combining various products or funding instruments in a portfolio. The basic principle is that funding portfolios that are built from various types of products or funding instruments can mitigate the available risks if there is a loss in one of its funding instruments. In this case, Lenders can take advantage of the relatively small initial funding that is intentionally set by KoinWorks, which is IDR100,000, to split the capital allocation to many loans at once. That means that Lenders have the opportunity to share the magnitude of risk based on grade, tenor, loan type, and the most recommended practice is to have a lending portfolio containing a minimum of 100 loans at once."
+    },
+    "diversifikatiKreditSkoring": {
+        "heading": "Credit Scoring",
+        "description": "On KoinWorks, all loans that have passed the credit assessment process will be given various credit scorings. Loans will be given a score from A to E, which sequentially indicates the level of risk and interest from the lowest to the highest level of risk and interest. Each score also contains 5 other levels, from A1 to A5 and so on to the lowest E1 to E5. The riskier a loan is, the higher the level of risk to be a loan default. To compensate for this, a riskier loan is subject to a higher interest rate. With the information below, you can find a complete description of the risk / return level as follows:"
+    }
+}
