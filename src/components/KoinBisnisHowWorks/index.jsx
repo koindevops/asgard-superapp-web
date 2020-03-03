@@ -52,7 +52,7 @@ function KoinBisnisHowWorks(props) {
 
   const slides = koinBisnis.map((koin, index) => {
     return (
-      <React.Fragment>
+      <React.Fragment key={index}>
         <img src={koin.image} style={{ width: "100%" }} alt="" />
         <div style={{ padding: 15 }}>
           <p style={{ textAlign: "center", fontSize: 17, color: " #566068" }}>

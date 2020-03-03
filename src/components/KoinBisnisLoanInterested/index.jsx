@@ -12,10 +12,51 @@ function KoinBisnisLoanInterested(props) {
           <div className="kw-KoinBisnisLoanInterested-wrapper__card-wrapper">
             <div className="kw-KoinBisnisLoanInterested-wrapper__card-wrapper__heading">
               <span>
-                <strong>SYARAT UNTUK</strong><br/>
+                <strong>SYARAT UNTUK</strong>
+                <br />
                 Perorangan
               </span>
             </div>
+            <ul>
+              <li> KTP</li>
+              <li> KTP</li>
+              <li> KTP</li>
+              <li> KTP</li>
+            </ul>
+          </div>
+        </Col>
+        <Col xs={24} md={8} lg={8}>
+          <div className="kw-KoinBisnisLoanInterested-wrapper__card-wrapper">
+            <div className="kw-KoinBisnisLoanInterested-wrapper__card-wrapper__heading">
+              <span>
+                <strong>SYARAT UNTUK</strong>
+                <br />
+                Perorangan
+              </span>
+            </div>
+            <ul>
+              <li> KTP</li>
+              <li> KTP</li>
+              <li> KTP</li>
+              <li> KTP</li>
+            </ul>
+          </div>
+        </Col>
+        <Col xs={24} md={8} lg={8}>
+          <div className="kw-KoinBisnisLoanInterested-wrapper__card-wrapper">
+            <div className="kw-KoinBisnisLoanInterested-wrapper__card-wrapper__heading">
+              <span>
+                <strong>SYARAT UNTUK</strong>
+                <br />
+                Perorangan
+              </span>
+            </div>
+            <ul>
+              <li> KTP</li>
+              <li> KTP</li>
+              <li> KTP</li>
+              <li> KTP</li>
+            </ul>
           </div>
         </Col>
       </Row>

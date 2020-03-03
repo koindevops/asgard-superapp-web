@@ -201,31 +201,32 @@ export const Section = styled.div`
     min-height: 613px;
     background-color: rgb(248, 252, 255);
     &__card-wrapper {
-      width: 318px;
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
       height: 400px;
       background: #60b5df;
+      ul {
+        list-style: none;
+      }
+      li {
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 55px;
+        color: #ffffff;
+      }
       &__heading {
-        width: 318px;
-        height: 100px;
+        width: 100%;
+        height: 120px;
         background: #35a5dc;
         padding: 15px;
         strong {
-          font-family: Source Sans Pro;
-          font-style: normal;
-          font-weight: 600;
+          font-weight: 800;
           font-size: 17px;
-          line-height: 20px;
-          letter-spacing: -0.24px;
-          text-transform: uppercase;
           color: #ffffff;
         }
         span {
-          font-family: Source Sans Pro;
-          font-style: normal;
           font-weight: 300;
           font-size: 32px;
-          line-height: 40px;
-          letter-spacing: 0.41px;
           color: #ffffff;
         }
       }
