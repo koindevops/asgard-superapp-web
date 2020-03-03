@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import HeadersMobile from "./HeadersMobile";
 
-function Headers() {
+function Headers(props) {
   const language = [
     {
       id: 1,
@@ -24,6 +24,10 @@ function Headers() {
   );
   const [kwHeaderStuck, setKwHeaderStuck] = useState("");
   const { t, i18n } = useTranslation();
+
+
+  console.log(props.match.children.props.location.pathname);
+  
 
   useEffect(() => {
     updateHeaderHeight();

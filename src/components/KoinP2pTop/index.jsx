@@ -1,6 +1,7 @@
 import React from "react";
 import { Row, Col } from "antd";
 import { useTranslation } from "react-i18next";
+import VideoLink from "../VideoLink";
 
 function KoinP2pTop(props) {
   const { t } = useTranslation();
@@ -36,10 +37,10 @@ function KoinP2pTop(props) {
           </div>
         </Col>
         <Col lg={12}>
-          <img
-            src={require("../../assets/image/first-super-financial-app.png")}
-            alt="koinworks-super-financial-app"
-            className="kw-koin-p2p-wrapper__super-financialApp"
+          <VideoLink
+            video="
+            https://www.youtube.com/embed/XStg5yw-KMo"
+            image={require("../../assets/image/first-super-financial-app.png")}
           />
         </Col>
       </Row>

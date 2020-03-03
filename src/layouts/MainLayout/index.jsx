@@ -9,7 +9,7 @@ function MainLayout(props) {
     })
     return (
         <React.Fragment>
-            <Headers/>
+            <Headers match={props}/>
             {props.children}
             <Footers/>
         </React.Fragment>

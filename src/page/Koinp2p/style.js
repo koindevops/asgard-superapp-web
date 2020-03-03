@@ -7,6 +7,7 @@ export const Section = styled.div`
     margin-bottom: 30px;
     &__imageLicensedByOjk {
       width: 200px;
+      margin-top: 150px;
     }
     &__super-financialApp {
       max-width: 555px;
@@ -29,6 +30,9 @@ export const Section = styled.div`
       &__super-financialApp {
         max-width: unset;
         width: 100%;
+      }
+      &__imageLicensedByOjk {
+        margin-top:0px;
       }
     }
   }
