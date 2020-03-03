@@ -1,4 +1,4 @@
-import React from "react";
+import React from "./node_modules/react";
 import { Section } from "./style";
 import HomeBackgroundContent from "../../components/HomeBackgroundContent";
 import HomeSliderMedia from "../../components/HomeSliderMedia";
