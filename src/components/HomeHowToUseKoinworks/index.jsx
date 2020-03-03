@@ -2,7 +2,6 @@ import React from "react";
 import { Row, Col } from "antd";
 import { useTranslation } from "react-i18next";
 import Slider from "react-slick";
-import { useState } from "react";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
@@ -28,8 +27,6 @@ function SamplePrevArrow(props) {
 
 function HomeHowToUseKoinworks(props) {
   const { headingTitle, imageSlider } = props;
-  const [activeSlide, setActiveSlide] = useState(2);
-  const [activeSlide2, setActiveSlide2] = useState(2);
   const { t } = useTranslation();
 
   const slides = imageSlider.map((image, index) => {

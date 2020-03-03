@@ -9,13 +9,21 @@ const { SubMenu } = Menu;
 function HeadersMobile(props) {
   const { t } = useTranslation();
   const [visible, setVisible] = useState(false);
-  const [placement, setPlacement] = useState("left");
+  const [selected, setSelected] = useState("");
+
+  const placement = "left";
+
   function onClose() {
     setVisible(false);
   }
 
   function showDrawer() {
     setVisible(true);
+  }
+
+  function andleClick(e) {
+    console.log(e.key);
+    setSelected(e.key);
   }
   return (
     <React.Fragment>
@@ -48,10 +56,9 @@ function HeadersMobile(props) {
         visible={visible}
       >
         <Menu
-          // onClick={this.handleClick}
+          onClick={andleClick}
           style={{ width: 256, marginTop: 30 }}
-          defaultSelectedKeys={["1"]}
-          defaultOpenKeys={["sub1"]}
+          selectedKeys={selected}
           mode="inline"
         >
           <SubMenu
@@ -81,6 +88,7 @@ function HeadersMobile(props) {
             <Menu.Item key="5">
               {" "}
               <a
+                rel="noopener noreferrer"
                 href="https://koinworks.com/id/pinjaman/dana-pendidikan"
                 target="_blank"
               >
@@ -94,6 +102,7 @@ function HeadersMobile(props) {
           <Menu.Item key="7">
             {" "}
             <a
+              rel="noopener noreferrer"
               href="https://koinworks.com/blog/"
               target="_blank"
             >

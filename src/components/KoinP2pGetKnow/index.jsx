@@ -10,6 +10,7 @@ function KoinP2pGetKnow(props) {
       <a
         href="https://koinworks.com/super-app/en/diversification/"
         target="_blank"
+        rel="noopener noreferrer"
       >
         {t("koinp2p:koinp2p.koinp2p-content-statistik-leanMore")}
       </a>

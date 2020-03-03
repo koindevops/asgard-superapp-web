@@ -35,7 +35,7 @@ function KoinBisnisVisual(props) {
           <p className="kw-bisnisVisual-wrapper__arready-account">
             {t("koinbisnis:koinbisnisTop.arready-account")}
           </p>
-          <a href="https://v1.koinworks.com/users/sign_in" target="_blank">
+          <a href="https://v1.koinworks.com/users/sign_in" rel="noopener noreferrer" target="_blank">
             {t("koinbisnis:koinbisnisTop.arready-link")}
           </a>
           <p className="kw-bisnisVisual-wrapper__arready-account">

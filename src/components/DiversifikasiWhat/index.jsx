@@ -15,10 +15,12 @@ function DiversifikasiWhat() {
           <p className="kw-diversifikasiWhat-wrapper__pargraph-one">
             {t("diversification:diversifikasiWhat.description")}
             <a
+              rel="noopener noreferrer"
               href="https://koinworks.com/blog/teknik-diversifikasi-pendanaan-koinworks/"
               target="_blank"
             >
-              <strong>&nbsp;
+              <strong>
+                &nbsp;
                 {t("diversification:diversifikasiWhat.url-link")}
               </strong>
             </a>
