@@ -42,6 +42,24 @@
       "description-Seven": "KoinWorks system automatically distributes returns to Lenders based on the portion of their funding (Principal + Interest)."
   },
   "koinbisnisLoanInterested": {
-    "heading": "Requirements, Rates, & Fees"
+    "heading": "Requirements, Rates, & Fees",
+    "labelStrongOneTwo": "REQUIREMENTS FOR",
+    "labelSpanOne": "Personal",
+    "labelSpanTwo" : "Business",
+    "labelStrongThree": "INTERESTED & FES",
+    "listOneCardOne" : "National ID Card",
+    "listOneCardTwo" : "Tax ID (if more than Rp50 milions)",
+    "listOneCardThree": "Family Card (if married)",
+    "listOneCardFour": "Bank Statement (last 3 months)",
+    "listTwoCardOne": "Director/Owner National ID Card",
+    "listTwoCardTwo": "Company Tax ID",
+    "listTwoCardThree": "Deed of Company Change (latest)",
+    "listTwoCardFour": "Bank Statement (last 3 months)",
+    "listTwoCardFive": "Financial Statements",
+    "listThreeCardOne": "Interest Rate / Month",
+    "listThreeCardTwo": "Origination / Credit Approval Fee",
+    "listThreeCardFour": "Life Insurance",
+    "listThreeCardFive": "Administration Fee",
+    "listThreeCardSix": "Maximum Loan Amount"
   }
 }
