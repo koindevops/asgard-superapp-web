@@ -22,7 +22,6 @@ function HeadersMobile(props) {
   }
 
   function andleClick(e) {
-    console.log(e.key);
     setSelected(e.key);
   }
   return (
@@ -58,7 +57,7 @@ function HeadersMobile(props) {
         <Menu
           onClick={andleClick}
           style={{ width: 256, marginTop: 30 }}
-          selectedKeys={selected}
+          defaultSelectedKeys={[selected]}
           mode="inline"
         >
           <SubMenu
@@ -69,11 +68,9 @@ function HeadersMobile(props) {
               <Link to="/koinp2p">KoinP2P</Link>
             </Menu.Item>
             <Menu.Item key="2">
-              {" "}
               <Link to="/koinrobo">KoinRobo</Link>
             </Menu.Item>
             <Menu.Item key="3">
-              {" "}
               <Link to="/diversifikasi">Diversifikasi</Link>
             </Menu.Item>
           </SubMenu>
@@ -82,11 +79,9 @@ function HeadersMobile(props) {
             title={<span> {t("menuHeaders:nameHeaders.nameLoans")}</span>}
           >
             <Menu.Item key="4">
-              {" "}
               <Link to="/koinbisnis">KoinBisnis</Link>
             </Menu.Item>
             <Menu.Item key="5">
-              {" "}
               <a
                 rel="noopener noreferrer"
                 href="https://koinworks.com/id/pinjaman/dana-pendidikan"
@@ -100,7 +95,6 @@ function HeadersMobile(props) {
             {t("menuHeaders:nameHeaders.nameFeatures")}
           </Menu.Item>
           <Menu.Item key="7">
-            {" "}
             <a
               rel="noopener noreferrer"
               href="https://koinworks.com/blog/"
