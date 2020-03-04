@@ -24,22 +24,23 @@ function Headers(props) {
   );
   const [kwHeaderStuck, setKwHeaderStuck] = useState("");
   const { t, i18n } = useTranslation();
-
-  console.log(props.match.children.props.location.pathname);
+  let checkPage = props.match.children.props.location.pathname;
 
   useEffect(() => {
-    updateHeaderHeight();
+   
+    if (
+      checkPage === "/koinp2p" ||
+      checkPage === "/koinrobo" ||
+      checkPage === "/diversifikasi" ||
+      checkPage === "/koinbisnis"
+    ) {
+      setScrollClasses("kw-header-activeScroll");
+    } 
     window.addEventListener("scroll", listenScrollEvent);
     return () => {
       window.removeEventListener("scroll", listenScrollEvent);
     };
-  });
-
-  function updateHeaderHeight() {
-    let bottomHeaderHeight = document.getElementById("bottomHeader")
-      .scrollHeight;
-    console.log(bottomHeaderHeight);
-  }
+  },[checkPage]);
 
   function listenScrollEvent() {
     let header = document.getElementById("bottomHeader").offsetTop;
@@ -66,7 +67,7 @@ function Headers(props) {
         <Link to="/koinrobo">KoinRobo</Link>
       </Menu.Item>
       <Menu.Item>
-        <Link to="/diversification">Diversifikasi</Link>
+        <Link to="/diversifikasi">Diversifikasi</Link>
       </Menu.Item>
     </Menu>
   );
