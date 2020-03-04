@@ -8,6 +8,7 @@ import { useEffect } from "react";
 import HeadersMobile from "./HeadersMobile";
 
 function Headers(props) {
+  const { t, i18n } = useTranslation();
   const language = [
     {
       id: 1,
@@ -18,16 +19,14 @@ function Headers(props) {
       language: "en"
     }
   ];
-  const [languageSelected, setLanguageSelected] = useState("id");
+  const [languageSelected, setLanguageSelected] = useState(i18n.language);
   const [scrollClasses, setScrollClasses] = useState(
     "kw-header-noActiveScroll"
   );
   const [kwHeaderStuck, setKwHeaderStuck] = useState("");
-  const { t, i18n } = useTranslation();
   let checkPage = props.match.children.props.location.pathname;
 
   useEffect(() => {
-   
     if (
       checkPage === "/koinp2p" ||
       checkPage === "/koinrobo" ||
@@ -40,7 +39,7 @@ function Headers(props) {
     return () => {
       window.removeEventListener("scroll", listenScrollEvent);
     };
-  },[checkPage]);
+  },[checkPage,languageSelected]);
 
   function listenScrollEvent() {
     let header = document.getElementById("bottomHeader").offsetTop;
