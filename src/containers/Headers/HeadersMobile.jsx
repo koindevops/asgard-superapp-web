@@ -74,7 +74,7 @@ function HeadersMobile(props) {
             </Menu.Item>
             <Menu.Item key="3">
               {" "}
-              <Link to="/diversification">Diversifikasi</Link>
+              <Link to="/diversifikasi">Diversifikasi</Link>
             </Menu.Item>
           </SubMenu>
           <SubMenu

@@ -3,8 +3,6 @@ import "./App.css";
 import { Route, Router, Switch } from "react-router-dom";
 import routes from "./routers/routes";
 import history from "./routers/history";
-import Helmet from "react-helmet";
-import MetaTags from "react-meta-tags";
 import "./internationalization";
 
 function App() {

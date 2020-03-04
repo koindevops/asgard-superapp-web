@@ -61,6 +61,8 @@ export const GlobalStyle = createGlobalStyle`
   .modal-video-slider .ant-modal-close {
     color: #ffffff !important;
     font-weight: bolder !important;
+    top: 180px;
+    right: 180px;
   }
   .modal-video-slider .ant-modal-close-x {
     font-size: 25px !important;
@@ -82,12 +84,26 @@ export const GlobalStyle = createGlobalStyle`
     height: 0px;
     transform: translate(0%, 1%);
   }
+
   .video-wrapper iframe {
     position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+  }
+
+  @media screen and (max-width:1187px){
+    .video-wrapper iframe {
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+    }
+    .modal-video-slider .ant-modal-close {
+      top: unset;
+      right: unset;
+    }
   }
 
   .kw-home-slider-media {
@@ -193,7 +209,7 @@ export const GlobalStyle = createGlobalStyle`
     
     @media screen and (min-width: 992px) and (max-width: 1199px) {
       &__slider-image .slick-dots {
-        bottom: 78px;
+        bottom: 0px;
       }
     }
 

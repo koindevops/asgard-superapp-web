@@ -2,7 +2,7 @@ const HOME = "/"
 const KOINP2P = "/koinp2p"
 const KOINROBO = "/koinrobo"
 const KOINBISNIS = "/koinbisnis"
-const DIVERSIFICATION = "/diversification"
+const DIVERSIFICATION = "/diversifikasi"
 
 const PATH_URL = {
     HOME : HOME,
