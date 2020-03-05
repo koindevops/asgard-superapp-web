@@ -41,6 +41,9 @@ export const Section = styled.div`
         }
       }
     }
+  @media screen and (min-width:993px) and (max-width:1610px){
+      margin-bottom: 50px;
+  } 
   }
 
   .kw-koinRobo-statistik {
