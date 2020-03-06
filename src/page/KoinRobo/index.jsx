@@ -9,8 +9,15 @@ import HomeSliderMedia from "../../components/HomeSliderMedia";
 import KoinP2pTrusted from "../../components/KoinP2pTrusted";
 import HomeHowToUseKoinworks from "../../components/HomeHowToUseKoinworks";
 import KoinRoboFinancialApp from "../../components/KoinRoboFinancialHero";
+import { useTranslation } from "react-i18next";
+import Helmet from "react-helmet";
 
 function KoinRobo() {
+  const { t } = useTranslation();
+
+  let checkKoinRobo =
+    t("menuHeaders:nameHeaders.nameWealth") === "Pendanaan" ? true : false;
+
   const imageSlider = [
     {
       image: require("../../assets/image/how-to-use-homepage1.png"),
@@ -56,6 +63,13 @@ function KoinRobo() {
   ];
   return (
     <Section>
+      <Helmet>
+        <title>
+          {checkKoinRobo
+            ? "Hasil Terprediksi Serba Otomatis"
+            : "Predicted Return in Autopilot"}
+        </title>
+      </Helmet>
       <div className="kw-koinRobo-wrapper">
         <KoinRoboKeyVisual />
         <KoinRoboStatistik />
