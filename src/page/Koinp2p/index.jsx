@@ -11,8 +11,15 @@ import KoinP2pTheyHelp from "../../components/KoinP2pTheyHelp";
 import KoinP2pFinancialApp from "../../components/KoinP2pFinancialApp";
 import KoinP2pTrusted from "../../components/KoinP2pTrusted";
 import HomeHowToUseKoinworks from "../../components/HomeHowToUseKoinworks";
+import Helmet from "react-helmet";
+import { useTranslation } from "react-i18next";
 
 function KoinP2p() {
+  const { t } = useTranslation();
+
+  let checkKoinP2p =
+    t("menuHeaders:nameHeaders.nameWealth") === "Pendanaan" ? true : false;
+
   const imageSlider = [
     {
       image: require("../../assets/image/how-to-use-homepage1.png"),
@@ -32,47 +39,48 @@ function KoinP2p() {
     },
     {
       image: require("../../assets/image/koinp2p-image/How to Use P2P - 2.png"),
-      label:
-        "koinp2p:koinp2p.koinp2p-content-howToUse-sliderThreeHeading",
+      label: "koinp2p:koinp2p.koinp2p-content-howToUse-sliderThreeHeading",
       description:
         "koinp2p:koinp2p.koinp2p-content-howToUse-sliderThreeDescription"
     },
     {
       image: require("../../assets/image/koinp2p-image/How to Use P2P - 3.png"),
-      label:
-        "koinp2p:koinp2p.koinp2p-content-howToUse-sliderFourHeading",
+      label: "koinp2p:koinp2p.koinp2p-content-howToUse-sliderFourHeading",
       description:
         "koinp2p:koinp2p.koinp2p-content-howToUse-sliderFourDescription"
     },
     {
       image: require("../../assets/image/koinp2p-image/How to Use P2P - 4.png"),
-      label:
-        "koinp2p:koinp2p.koinp2p-content-howToUse-sliderFiveHeading",
+      label: "koinp2p:koinp2p.koinp2p-content-howToUse-sliderFiveHeading",
       description:
         "koinp2p:koinp2p.koinp2p-content-howToUse-sliderFiveDescription"
     },
     {
       image: require("../../assets/image/koinp2p-image/How to Use P2P - 5.png"),
-      label:
-        "koinp2p:koinp2p.koinp2p-content-howToUse-sliderSixHeading",
+      label: "koinp2p:koinp2p.koinp2p-content-howToUse-sliderSixHeading",
       description:
         "koinp2p:koinp2p.koinp2p-content-howToUse-sliderSixDescription"
     },
     {
       image: require("../../assets/image/koinp2p-image/How to Use P2P - 6.png"),
-      label:
-        "koinp2p:koinp2p.koinp2p-content-howToUse-sliderSevenHeading",
+      label: "koinp2p:koinp2p.koinp2p-content-howToUse-sliderSevenHeading",
       description:
         "koinp2p:koinp2p.koinp2p-content-howToUse-sliderSevenDescription"
     },
     {
       image: require("../../assets/image/koinp2p-image/How to Use P2P - 7.png"),
-      label:
-        "koinp2p:koinp2p.koinp2p-content-howToUse-sliderEightHeading"
+      label: "koinp2p:koinp2p.koinp2p-content-howToUse-sliderEightHeading"
     }
   ];
   return (
     <Section>
+      <Helmet>
+        <title>
+          {checkKoinP2p
+            ? "Pionir Platform P2P Lending di Indonesia"
+            : "The True Peer to Peer Lending Platform"}
+        </title>
+      </Helmet>
       <KoinP2pTop />
       <KoinP2pFuturGift />
       <KoinP2pHowWorks />
