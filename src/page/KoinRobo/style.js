@@ -3,11 +3,16 @@ import BackgroundImageFinancialHero from "../../assets/image/koinrobo-image/fina
 
 export const Section = styled.div`
   .kw-koinRoboVisual {
+    min-height: 100vh;
+    img {
+      max-width: 563px !important;
+      max-height: 563px !important;
+    }
     &__koin-robo-visual-right {
       display: block;
       margin-left: auto;
       margin-right: auto;
-      width: 50%;
+      margin-top: 40px;
     }
     &__left-content {
       margin-top: 99px;
@@ -33,6 +38,7 @@ export const Section = styled.div`
       &__koin-robo-visual-right {
         width: 100%;
         margin-top: 10px;
+        margin-bottom: 20px;
       }
       &__left-content {
         margin-top: 0px;
@@ -41,9 +47,9 @@ export const Section = styled.div`
         }
       }
     }
-  @media screen and (min-width:993px) and (max-width:1610px){
+    @media screen and (min-width: 993px) and (max-width: 1610px) {
       margin-bottom: 50px;
-  } 
+    }
   }
 
   .kw-koinRobo-statistik {
@@ -225,7 +231,7 @@ export const Section = styled.div`
       font-size: 22px;
       color: #378df4;
     }
-    img{
+    img {
       width: 100%;
     }
     @media screen and (max-width: 750px) {

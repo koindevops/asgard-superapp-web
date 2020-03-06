@@ -16,9 +16,12 @@ export const Section = styled.div`
       color: #566068;
     }
     img {
-      width: 100%;
+      width: 750px;
     }
     @media screen and (max-width: 700px) {
+      img {
+        width: 100%;
+      }
       h2 {
         margin-top: 50px;
       }
