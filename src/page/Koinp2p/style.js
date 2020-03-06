@@ -235,11 +235,10 @@ export const Section = styled.div`
       width: 100%;
     }
     h3 {
-      width: 75%;
       font-weight: normal;
       color: #071e35;
       font-size: 54px;
-      text-align: center;
+      margin-left: 40px;
       margin-top: 80px;
     }
     p {
