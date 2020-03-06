@@ -19,8 +19,10 @@ export const Section = styled.div`
       color: #566068;
     }
     &__barcode-footer {
-      width: 90px;
       height: 80px;
+      width: 90px;
+      max-height: 90px;
+      max-width: 90px;
     }
     ul {
       margin: 0;
@@ -107,7 +109,7 @@ export const Section = styled.div`
       padding: 20px;
       margin-top: 20px;
     }
-    @media screen and (max-width:825px){
+    @media screen and (max-width: 825px) {
       &__paragraph-wrapper-right {
         padding: 0px;
         margin-top: 0px;

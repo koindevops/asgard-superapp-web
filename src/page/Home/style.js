@@ -65,7 +65,8 @@ export const Section = styled.div`
         margin-left: 20px;
       }
       &__barcode-image {
-        width: 100px !important;
+        width: 100px;
+        max-width: 100px;
         margin-left: 20px;
         margin-top: -20px;
       }
