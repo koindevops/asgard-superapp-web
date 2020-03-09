@@ -23,7 +23,7 @@ const isLocalhost = Boolean(
 export function register(config) {
   if (process.env.NODE_ENV === "production" && "serviceWorker" in navigator) {
     window.addEventListener("load", function() {
-      navigator.serviceWorker.register("/sw.js").then(
+      navigator.serviceWorker.register("./sw.js").then(
         function(registration) {
           // Registration was successful
           console.log(
