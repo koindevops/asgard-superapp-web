@@ -1,0 +1,7 @@
+.kw-home-slider-to-home-from-home .slick-prev {
+  display: none !important;
+}
+
+.kw-home-slider-to-home-from-home .slick-next {
+    display: none !important;
+}

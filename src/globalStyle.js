@@ -3,12 +3,24 @@ import BackgroundHowToUse from "./assets/image/background-blue-red-scaled.png";
 
 export const GlobalStyle = createGlobalStyle`
 
+html{overflow-x: hidden;}
+
   /*------------------------------------*\
     # Global
   \*------------------------------------*/
 
   .kw-koinp2p-profil-wrapper {
     margin-bottom: 35px;
+    @media screen and (max-width: 725px){
+      &__button-slider {
+        .slick-prev {
+          display: none !important;
+        }
+        .slick-next {
+          display: none !important;
+        }
+    } 
+  }
     &__heading-text {
       margin-top: 55px;
       display: flex;
@@ -43,7 +55,7 @@ export const GlobalStyle = createGlobalStyle`
         }
         &__image {
           display: none;
-        }
+        }   
       }
       @media screen and (min-width: 726px) {
         &__slider {

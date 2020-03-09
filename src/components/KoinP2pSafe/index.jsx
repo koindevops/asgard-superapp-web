@@ -105,7 +105,7 @@ function KoinP2pSafe(props) {
         </Row>
       </div>
       <div className="kw-koin-p2p-safe-wrapper__content-slider">
-        <Slider {...settings}>{slides}</Slider>
+        <Slider className="kw-koin-p2p-safe-wrapper__content-slider__button" {...settings}>{slides}</Slider>
       </div>
     </div>
   );

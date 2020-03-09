@@ -143,6 +143,14 @@ export const Section = styled.div`
     @media screen and (min-width: 726px) {
       &__content-slider {
         display: none;
+        &__button {
+          .slick-prev {
+            display: none !important;
+          }
+          .slick-next {
+            display: none !important;
+          }
+        }
       }
     }
   }

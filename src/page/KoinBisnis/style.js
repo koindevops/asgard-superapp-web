@@ -101,7 +101,15 @@ export const Section = styled.div`
     background-image: url(${BackgroundWhyKoinBisnis});
     background-repeat: no-repeat;
     background-size: cover;
-    &__noSlider {
+    &__slider {
+      &__button {
+        .slick-prev {
+          display: none !important;
+        }
+        .slick-next {
+          display: none !important;
+        }
+      }
     }
     h3 {
       margin: 0 auto;
@@ -148,6 +156,16 @@ export const Section = styled.div`
     padding-bottom: 30px;
     min-height: 686px;
     background-color: rgb(248, 252, 255);
+    &__slider {
+      &__button {
+        .slick-prev {
+          display: none !important;
+        }
+        .slick-next {
+          display: none !important;
+        }
+      }
+    }
     ol {
       list-style: none;
       counter-reset: my-awesome-counter;
