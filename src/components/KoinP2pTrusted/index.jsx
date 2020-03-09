@@ -27,22 +27,24 @@ function KoinP2pTrusted() {
     }
   ];
   return (
-    <div className="container kw-koinP2p-trusted">
-      <h3>{t("koinp2p:koinp2p.koinp2p-content-trusted-heading")}</h3>
-      <p>{t("koinp2p:koinp2p.koinp2p-content-trusted-paragraph")}</p>
-      <Row>
-        {imageEcommerce.map((image, index) => {
-          return (
-            <Col key={index} xs={12} md={4}>
-              <img
-                src={image.image}
-                alt=""
-                style={{ marginTop: image.keyIndex && -20 }}
-              />
-            </Col>
-          );
-        })}
-      </Row>
+    <div className="container">
+      <div className="kw-koinP2p-trusted">
+        <h3>{t("koinp2p:koinp2p.koinp2p-content-trusted-heading")}</h3>
+        <p>{t("koinp2p:koinp2p.koinp2p-content-trusted-paragraph")}</p>
+        <Row>
+          {imageEcommerce.map((image, index) => {
+            return (
+              <Col key={index} xs={12} md={4}>
+                <img
+                  src={image.image}
+                  alt=""
+                  style={{ marginTop: image.keyIndex && -20 }}
+                />
+              </Col>
+            );
+          })}
+        </Row>
+      </div>
     </div>
   );
 }

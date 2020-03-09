@@ -72,30 +72,32 @@ function KoinBisnisHowWorks(props) {
   };
 
   return (
-    <div className="container-fluid kw-koinBisnisHowWorks-wrapper">
-      <h3>{t("koinbisnis:koinbisnisHowWorks.heading")}</h3>
-      <div className="kw-koinBisnisHowWorks-wrapper__noSlider">
-        <Row>
-          <Col md={16}>
-            <img
-              src={require(checkKoinBisnisHowWorks
-                ? "../../assets/image/koinbisnis-image/cara-kerja-koinbisnis-bahasa-indonesia.png"
-                : "../../assets/image/koinbisnis-image/flow-koinbisnis.png")}
-              style={{ width: "100%" }}
-              alt=""
-            />
-          </Col>
-          <Col md={8}>
-            <ol>
-              {koinBisnis.map((desc, i) => {
-                return <li key={i}>{t(desc.description)}</li>;
-              })}
-            </ol>
-          </Col>
-        </Row>
-      </div>
-      <div className="kw-koinBisnisHowWorks-wrapper__slider">
-        <Slider {...settings}>{slides}</Slider>
+    <div className="container-fluid">
+      <div className="kw-koinBisnisHowWorks-wrapper">
+        <h3>{t("koinbisnis:koinbisnisHowWorks.heading")}</h3>
+        <div className="kw-koinBisnisHowWorks-wrapper__noSlider">
+          <Row>
+            <Col md={16}>
+              <img
+                src={require(checkKoinBisnisHowWorks
+                  ? "../../assets/image/koinbisnis-image/cara-kerja-koinbisnis-bahasa-indonesia.png"
+                  : "../../assets/image/koinbisnis-image/flow-koinbisnis.png")}
+                style={{ width: "100%" }}
+                alt=""
+              />
+            </Col>
+            <Col md={8}>
+              <ol>
+                {koinBisnis.map((desc, i) => {
+                  return <li key={i}>{t(desc.description)}</li>;
+                })}
+              </ol>
+            </Col>
+          </Row>
+        </div>
+        <div className="kw-koinBisnisHowWorks-wrapper__slider">
+          <Slider {...settings}>{slides}</Slider>
+        </div>
       </div>
     </div>
   );

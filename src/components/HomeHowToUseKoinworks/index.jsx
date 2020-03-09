@@ -70,19 +70,21 @@ function HomeHowToUseKoinworks(props) {
   };
   return (
     <div className="kw-home-how-to-use-koinworks-wrapper">
-      <div className="container kw-home-how-to-use-koinworks">
-        <Row>
-          <Col lg={7}>
-            <h3 className="kw-home-how-to-use-koinworks__label-text">
-              {t(headingTitle)}
-            </h3>
-          </Col>
-          <Col lg={17}>
-            <div className="kw-home-how-to-use-koinworks__slider-image">
-              <Slider {...settings}>{slides}</Slider>
-            </div>
-          </Col>
-        </Row>
+      <div className="container">
+        <div className="kw-home-how-to-use-koinworks">
+          <Row>
+            <Col lg={7}>
+              <h3 className="kw-home-how-to-use-koinworks__label-text">
+                {t(headingTitle)}
+              </h3>
+            </Col>
+            <Col lg={17}>
+              <div className="kw-home-how-to-use-koinworks__slider-image">
+                <Slider {...settings}>{slides}</Slider>
+              </div>
+            </Col>
+          </Row>
+        </div>
       </div>
     </div>
   );

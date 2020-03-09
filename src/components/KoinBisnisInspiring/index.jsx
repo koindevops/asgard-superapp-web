@@ -6,7 +6,8 @@ import VideoLink from "../VideoLink";
 function KoinBisnisInspiring(props) {
   const { t } = useTranslation();
   return (
-    <div className="container-fluid kw-koinBisnisInspiring-wrapper">
+    <div className="container-fluid">
+      <div className="kw-koinBisnisInspiring-wrapper">
       <Row>
         <Col xs={24} md={14} lg={15}>
           <h3>{t("koinbisnis:koinbisnisInspiring.heading")}</h3>
@@ -19,6 +20,7 @@ function KoinBisnisInspiring(props) {
           />
         </Col>
       </Row>
+      </div>
     </div>
   );
 }
