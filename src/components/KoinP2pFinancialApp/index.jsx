@@ -6,7 +6,8 @@ import VideoLink from "../../components/VideoLink";
 function KoinP2pFinancialApp() {
   const { t } = useTranslation();
   return (
-    <div className="container-fluid kw-koinp2p-financialApp">
+    <div className="container-fluid">
+      <div className="kw-koinp2p-financialApp">
       <Row>
         <Col md={10}>
           <h3>{t("koinp2p:koinp2p.koinp2p-content-financial-appHeading")}</h3>
@@ -22,6 +23,7 @@ function KoinP2pFinancialApp() {
           />
         </Col>
       </Row>
+      </div>
     </div>
   );
 }

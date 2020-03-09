@@ -96,13 +96,14 @@ function HomeStastistikSlider() {
     },
     {
       imageSliderMedia: logoActiveInstitutional,
-      imageSliderHeading: "homeLanguage:homeStatistikKoinworks.homeStatisUserUsed",
+      imageSliderHeading:
+        "homeLanguage:homeStatistikKoinworks.homeStatisUserUsed",
       imageSliderParagraph:
         "homeLanguage:homeStatistikKoinworks.homeStatisInstitutionalActive"
     }
   ];
 
-  const slides = imagesSlider.map((image,index) => {
+  const slides = imagesSlider.map((image, index) => {
     return (
       <div key={index} className="kw-home-slider-media">
         <img
@@ -121,13 +122,15 @@ function HomeStastistikSlider() {
   });
 
   return (
-    <div className="container-fluid home-stastistik-slider-wrapper">
-      <h3>
-        {t("homeLanguage:homeStatistikKoinworks.homeStatistikKoinworksLabel")}{" "}
-        <span style={{ fontSize: 28 }}>(Juli 2019)</span>
-      </h3>
-      <div className="home-stastistik-slider-wrapper__slider">
-        <Slider {...settings}>{slides}</Slider>
+    <div className="container-fluid">
+      <div className="home-stastistik-slider-wrapper">
+        <h3>
+          {t("homeLanguage:homeStatistikKoinworks.homeStatistikKoinworksLabel")}{" "}
+          <span style={{ fontSize: 28 }}>(Juli 2019)</span>
+        </h3>
+        <div className="home-stastistik-slider-wrapper__slider">
+          <Slider {...settings}>{slides}</Slider>
+        </div>
       </div>
     </div>
   );

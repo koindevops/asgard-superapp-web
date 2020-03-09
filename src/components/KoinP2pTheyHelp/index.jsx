@@ -9,7 +9,8 @@ function KoinP2pTheyHelp() {
     t("menuHeaders:nameHeaders.nameWealth") === "Pendanaan" ? true : false;
 
   return (
-    <div className="container-fluid kw-koinp2p-they-help">
+    <div className="container-fluid">
+      <div className="kw-koinp2p-they-help">
       <Row>
         <Col md={8}>
           <img
@@ -26,6 +27,7 @@ function KoinP2pTheyHelp() {
           </div>
         </Col>
       </Row>
+      </div>
     </div>
   );
 }

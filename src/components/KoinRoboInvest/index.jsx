@@ -52,16 +52,14 @@ function KoinRoboInvest(props) {
   });
 
   return (
-    <div className="container-fluid kw-robo-invest-wrapper">
-      <h3>{t("koinrobo:koinrobo.koinrobo-invest-heading")}</h3>
-      <Row className="kw-robo-invest-wrapper__sliderOf">
-        {slidesContent}
+    <div className="container-fluid">
+      <div className="kw-robo-invest-wrapper">
+        <h3>{t("koinrobo:koinrobo.koinrobo-invest-heading")}</h3>
+        <Row className="kw-robo-invest-wrapper__sliderOf">{slidesContent}</Row>
+        <Row className="kw-robo-invest-wrapper__sliderOn">
+          <Slider {...settings}>{slidesContent}</Slider>
         </Row>
-      <Row className="kw-robo-invest-wrapper__sliderOn">
-        <Slider {...settings}>
-          {slidesContent}
-          </Slider>
-      </Row>
+      </div>
     </div>
   );
 }
