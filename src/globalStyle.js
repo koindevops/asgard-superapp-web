@@ -3,6 +3,8 @@ import BackgroundHowToUse from "./assets/image/background-blue-red-scaled.png";
 
 export const GlobalStyle = createGlobalStyle`
 
+html{overflow-x: hidden;}
+
   /*------------------------------------*\
     # Global
   \*------------------------------------*/
