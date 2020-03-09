@@ -77,6 +77,7 @@ export const Section = styled.div`
       padding-left: 3.5rem;
     }
 
+
     @media screen and (max-width: 825px) {
       background-size: 100%;
       background-position: bottom;

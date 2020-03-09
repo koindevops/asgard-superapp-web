@@ -11,6 +11,16 @@ html{overflow-x: hidden;}
 
   .kw-koinp2p-profil-wrapper {
     margin-bottom: 35px;
+    @media screen and (max-width: 725px){
+      &__button-slider {
+        .slick-prev {
+          display: none !important;
+        }
+        .slick-next {
+          display: none !important;
+        }
+    } 
+  }
     &__heading-text {
       margin-top: 55px;
       display: flex;
@@ -45,7 +55,7 @@ html{overflow-x: hidden;}
         }
         &__image {
           display: none;
-        }
+        }   
       }
       @media screen and (min-width: 726px) {
         &__slider {

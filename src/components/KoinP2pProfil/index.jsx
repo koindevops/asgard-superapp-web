@@ -130,7 +130,7 @@ function KoinP2pProfil(props) {
           />
         </div>
         <div className="kw-koinp2p-profil-wrapper__heading-text__slider">
-          <Slider {...settings}> {slides}</Slider>
+          <Slider className="kw-koinp2p-profil-wrapper__button-slider" {...settings}> {slides}</Slider>
         </div>
       </div>
     </div>

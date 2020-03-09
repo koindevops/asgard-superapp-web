@@ -2,6 +2,7 @@ import React,{ useEffect } from "react";
 import Slider from "react-slick";
 import { useTranslation } from "react-i18next";
 import SliderMediaId from "./SliderMediaId";
+import "./style.css"
 
 function HomeSliderMedia() {
   const { t } = useTranslation();
@@ -85,7 +86,7 @@ function HomeSliderMedia() {
 
   return (
     <div className="container" style={{ marginTop: 33 }}>
-      <Slider {...settings}>
+      <Slider className ="kw-home-slider-to-home-from-home" {...settings}>
         <SliderMediaId
           image={isMobile() ? imagesOne.imageSwa : imagesOne}
           isMobile={isMobile()}

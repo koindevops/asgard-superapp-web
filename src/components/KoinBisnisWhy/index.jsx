@@ -128,7 +128,7 @@ function KoinBisnisWhy(props) {
         </Row>
       </div>
       <div className="kw-koinBisnis-wrapper__slider">
-        <Slider {...settings}>{slides}</Slider>
+        <Slider className="kw-koinBisnis-wrapper__slider__button" {...settings}>{slides}</Slider>
       </div>
     </div>
   );
