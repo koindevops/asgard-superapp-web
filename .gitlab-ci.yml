@@ -4,7 +4,7 @@ deployment-staging:
     refs:
       - staging
   tags:
-    - golang
+    - node
   script:
     - docker build -t $REGISTRY:staging-v1.$CI_PIPELINE_IID .
     - docker push $REGISTRY:staging-v1.$CI_PIPELINE_IID
@@ -18,26 +18,29 @@ deployment-sandbox:
       - master
 #      - /^v\d+\.\d+\.\d+\.\d+-rc$/
     tags:
-      - golang
+      - node
     script:
       - docker build -t $REGISTRY:master-v1.$CI_PIPELINE_IID .
       - docker push $REGISTRY:master-v1.$CI_PIPELINE_IID
       - kcs $K8S_CONFIG_UAT
       - eval "kubectl patch deploy $DEPLOY_UAT -n $NAMESPACE --patch '{\"spec\":{\"template\":{\"spec\":{\"containers\":[{\"image\":\"$REGISTRY:master-v1.$CI_PIPELINE_IID\",\"name\":\"$DEPLOY_UAT\"}]}}}}'"
       - docker rmi $REGISTRY:master-v1.$CI_PIPELINE_IID
+    when: manual
 
 deployment-production:
     stage: build
     only:
+      - master
       - /^v\d+\.\d+\.\d+\.\d+$/
     tags:
-      - golang
+      - node
     before_script:
       - TAGS=$(git describe --tags `git rev-list --tags --max-count=1`)
     script:
+     #- echo "APP_VERSION=$TAG" >> .env
       - docker build -t $REGISTRY:release-$TAGS .
       - docker push $REGISTRY:release-$TAGS
       - kcs $K8S_CONFIG_PRODUCTION
-      - eval "kubectl patch deploy $DEPLOY_PRODUCTION -n $NAMESPACE --patch '{\"spec\":{\"template\":{\"spec\":{\"containers\":[{\"image\":\"$REGISTRY:master-$release\",\"name\":\"$DEPLOY_PRODUCTION\"}]}}}}'"
+      - eval "kubectl patch deploy $DEPLOY_PRODUCTION -n $NAMESPACE --patch '{\"spec\":{\"template\":{\"spec\":{\"containers\":[{\"image\":\"$REGISTRY:release-$TAGS\",\"name\":\"$DEPLOY_PRODUCTION\"}]}}}}'"
       - docker rmi $REGISTRY:release-$TAGS
     when: manual
